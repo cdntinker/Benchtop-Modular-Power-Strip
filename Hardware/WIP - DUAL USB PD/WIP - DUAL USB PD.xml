@@ -1,0 +1,2082 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/tinker/Documents/GIT/USB-Power-Strip/Hardware/WIP - DUAL USB PD/WIP - DUAL USB PD.kicad_sch</source>
+    <date>Mon 01 Apr 2024 12:11:13 PM</date>
+    <tool>Eeschema 6.0.11+dfsg-1~bpo11+1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Benchtop Modular Power Strip</title>
+        <company>S. A. Miller</company>
+        <rev>0.0.0</rev>
+        <date>2024-03-25</date>
+        <source>WIP - DUAL USB PD.kicad_sch</source>
+        <comment number="1" value="Prototype Module"/>
+        <comment number="2" value="Blank"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/ATTinyXX17/" tstamps="/3f597fe2-e90f-4e96-8272-fe65887870e9/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ATTinyXX17.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Source Power Rail/" tstamps="/ecbb230b-827b-43ac-9926-924482911738/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Power.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>USB-PD.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Control A/" tstamps="/10b10896-5180-4e53-a638-f5b731e575e1/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>CtrlA.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/Control B/" tstamps="/76680d8a-9542-4fb8-bd22-f02d3e56b0f4/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>CtrlB.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>USB-PD-2.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C107153</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C107153"/>
+      <property name="Sheetname" value="ATTinyXX17"/>
+      <property name="Sheetfile" value="ATTinyXX17.kicad_sch"/>
+      <property name="Field2" value="Custom I2C Communications"/>
+      <sheetpath names="/ATTinyXX17/" tstamps="/3f597fe2-e90f-4e96-8272-fe65887870e9/"/>
+      <tstamps>afb78366-6f57-4b12-a6d7-7841fe1c3df0</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Sheetname" value="ATTinyXX17"/>
+      <property name="Sheetfile" value="ATTinyXX17.kicad_sch"/>
+      <property name="Field2" value="Custom I2C Communications"/>
+      <sheetpath names="/ATTinyXX17/" tstamps="/3f597fe2-e90f-4e96-8272-fe65887870e9/"/>
+      <tstamps>c3c929d0-bd77-497e-880e-9123cf1393d3</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value="ATTinyXX17"/>
+      <property name="Sheetfile" value="ATTinyXX17.kicad_sch"/>
+      <property name="Field2" value="Custom I2C Communications"/>
+      <sheetpath names="/ATTinyXX17/" tstamps="/3f597fe2-e90f-4e96-8272-fe65887870e9/"/>
+      <tstamps>328bd641-af30-4f51-9a2d-1e67837d2a9d</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C23138</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C23138"/>
+      <property name="Sheetname" value="ATTinyXX17"/>
+      <property name="Sheetfile" value="ATTinyXX17.kicad_sch"/>
+      <property name="Field2" value="Custom I2C Communications"/>
+      <sheetpath names="/ATTinyXX17/" tstamps="/3f597fe2-e90f-4e96-8272-fe65887870e9/"/>
+      <tstamps>ebee027f-ac81-44cb-a1d3-27170ab12d63</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value="ATTinyXX17"/>
+      <property name="Sheetfile" value="ATTinyXX17.kicad_sch"/>
+      <property name="Field2" value="Custom I2C Communications"/>
+      <sheetpath names="/ATTinyXX17/" tstamps="/3f597fe2-e90f-4e96-8272-fe65887870e9/"/>
+      <tstamps>fd85a6fa-5155-4114-92c7-ea395279fa5d</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value="ATTinyXX17"/>
+      <property name="Sheetfile" value="ATTinyXX17.kicad_sch"/>
+      <property name="Field2" value="Custom I2C Communications"/>
+      <sheetpath names="/ATTinyXX17/" tstamps="/3f597fe2-e90f-4e96-8272-fe65887870e9/"/>
+      <tstamps>b4e7d22b-3626-46e9-9c63-164f853df6b2</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ATtiny1617</value>
+      <footprint>Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/40001901B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C1340514</field>
+      </fields>
+      <libsource lib="MCU_Microchip_ATtiny" part="ATtiny817-M" description="20MHz, 8kB Flash, 512B SRAM, 128B EEPROM, VQFN-24"/>
+      <property name="LCSC" value="C1340514"/>
+      <property name="Sheetname" value="ATTinyXX17"/>
+      <property name="Sheetfile" value="ATTinyXX17.kicad_sch"/>
+      <property name="Field2" value="Custom I2C Communications"/>
+      <sheetpath names="/ATTinyXX17/" tstamps="/3f597fe2-e90f-4e96-8272-fe65887870e9/"/>
+      <tstamps>90675046-f16f-4141-a007-5433547cce01</tstamps>
+    </comp>
+    <comp ref="D301">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="LCSC">C3040450</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="LCSC" value="C3040450"/>
+      <property name="Sheetname" value="Source Power Rail"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="Field2" value="Source Power Protection"/>
+      <sheetpath names="/Source Power Rail/" tstamps="/ecbb230b-827b-43ac-9926-924482911738/"/>
+      <tstamps>a91d92bd-d54f-4e56-aaf0-01ab6434b9ac</tstamps>
+    </comp>
+    <comp ref="F301">
+      <value>Polyfuse</value>
+      <footprint>tinker:F1206</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2305121424_BHFUSE-BSMD1206L-260_C960020.pdf</datasheet>
+      <fields>
+        <field name="Field5">BHFuse BSMD1206 family</field>
+        <field name="Field6">https://www.lcsc.com/products/Resettable-Fuses_11042.html?keyword=BSMD1206</field>
+        <field name="LCSC">C2977524 (random choice)</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="LCSC" value="C2977524 (random choice)"/>
+      <property name="Field5" value="BHFuse BSMD1206 family"/>
+      <property name="Field6" value="https://www.lcsc.com/products/Resettable-Fuses_11042.html?keyword=BSMD1206"/>
+      <property name="Sheetname" value="Source Power Rail"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <property name="Field2" value="Source Power Protection"/>
+      <sheetpath names="/Source Power Rail/" tstamps="/ecbb230b-827b-43ac-9926-924482911738/"/>
+      <tstamps>ae5a3562-69d7-4f39-848b-de24019026d4</tstamps>
+    </comp>
+    <comp ref="C401">
+      <value>330uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_10x7.7</footprint>
+      <libsource lib="Device" part="CP" description=""/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>a4a700b3-9f48-4218-b5b2-2fbe37dc2671</tstamps>
+    </comp>
+    <comp ref="C402">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>86cfe658-8f2b-4e1c-bece-e9a8abdd85b6</tstamps>
+    </comp>
+    <comp ref="C403">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>059892e1-8106-4699-b19d-b0a027a47f9f</tstamps>
+    </comp>
+    <comp ref="C404">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>8f0eb4d4-c464-4e1b-ab4c-52804f607dc4</tstamps>
+    </comp>
+    <comp ref="C405">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>0ba4c1f1-d87a-4b44-94e3-1454295f4251</tstamps>
+    </comp>
+    <comp ref="C406">
+      <value>330uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_10x7.7</footprint>
+      <libsource lib="Device" part="CP" description=""/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>4bc6674e-0251-4caf-a121-0d82d115ddae</tstamps>
+    </comp>
+    <comp ref="C407">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>495ae1aa-1566-415c-be43-c94cff003bd0</tstamps>
+    </comp>
+    <comp ref="C408">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>f5ac4e62-8017-4bf1-bc66-c0f5bddae9a6</tstamps>
+    </comp>
+    <comp ref="C409">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>61ff76b8-348e-4e3b-8f63-5827a013a7ed</tstamps>
+    </comp>
+    <comp ref="C410">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>206cdf8c-b27d-4c84-8d2f-f2933ed7c52b</tstamps>
+    </comp>
+    <comp ref="C411">
+      <value>470nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>5e033d96-38c5-4eb0-832d-4b051ccbf181</tstamps>
+    </comp>
+    <comp ref="C412">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>1e34d94b-bc95-4326-8481-81bb819e00fb</tstamps>
+    </comp>
+    <comp ref="C413">
+      <value>390pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>13a9f700-4abb-40b9-97e2-fe8beddd79ff</tstamps>
+    </comp>
+    <comp ref="C414">
+      <value>390pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>bec7379d-8543-4d2c-8f0c-b954f70ecd0c</tstamps>
+    </comp>
+    <comp ref="D401">
+      <value>PGB1010603NR</value>
+      <footprint>tinker:PGB1010603NRHF</footprint>
+      <fields>
+        <field name="Arrow Part Number">PGB1010603NR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/pgb1010603nr/littelfuse?region=nac</field>
+        <field name="Datasheet_1">https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf</field>
+        <field name="Footprint_1">PGB1010603NRHF</field>
+        <field name="Height">0.36</field>
+        <field name="Manufacturer_Name">LITTELFUSE</field>
+        <field name="Manufacturer_Part_Number">PGB1010603NR</field>
+        <field name="Mouser Part Number">576-PGB1010603NR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Littelfuse/PGB1010603NR?qs=gu7KAQ731UTJOoBJUwB8FA%3D%3D</field>
+        <field name="Reference_1">D</field>
+        <field name="Value_1">PGB1010603NR</field>
+      </fields>
+      <libsource lib="tinker" part="PGB1010603NR" description="ESD Suppressors / TVS Diodes 0603 24VDC .06pF"/>
+      <property name="Reference_1" value="D"/>
+      <property name="Value_1" value="PGB1010603NR"/>
+      <property name="Footprint_1" value="PGB1010603NRHF"/>
+      <property name="Datasheet_1" value="https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf"/>
+      <property name="Height" value="0.36"/>
+      <property name="Manufacturer_Name" value="LITTELFUSE"/>
+      <property name="Manufacturer_Part_Number" value="PGB1010603NR"/>
+      <property name="Mouser Part Number" value="576-PGB1010603NR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Littelfuse/PGB1010603NR?qs=gu7KAQ731UTJOoBJUwB8FA%3D%3D"/>
+      <property name="Arrow Part Number" value="PGB1010603NR"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/pgb1010603nr/littelfuse?region=nac"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>713854fc-97ee-4b9a-bad8-b54bfaafb4f3</tstamps>
+    </comp>
+    <comp ref="D402">
+      <value>PGB1010603NR</value>
+      <footprint>tinker:PGB1010603NRHF</footprint>
+      <fields>
+        <field name="Arrow Part Number">PGB1010603NR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/pgb1010603nr/littelfuse?region=nac</field>
+        <field name="Datasheet_1">https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf</field>
+        <field name="Footprint_1">PGB1010603NRHF</field>
+        <field name="Height">0.36</field>
+        <field name="Manufacturer_Name">LITTELFUSE</field>
+        <field name="Manufacturer_Part_Number">PGB1010603NR</field>
+        <field name="Mouser Part Number">576-PGB1010603NR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Littelfuse/PGB1010603NR?qs=gu7KAQ731UTJOoBJUwB8FA%3D%3D</field>
+        <field name="Reference_1">D</field>
+        <field name="Value_1">PGB1010603NR</field>
+      </fields>
+      <libsource lib="tinker" part="PGB1010603NR" description="ESD Suppressors / TVS Diodes 0603 24VDC .06pF"/>
+      <property name="Reference_1" value="D"/>
+      <property name="Value_1" value="PGB1010603NR"/>
+      <property name="Footprint_1" value="PGB1010603NRHF"/>
+      <property name="Datasheet_1" value="https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf"/>
+      <property name="Height" value="0.36"/>
+      <property name="Manufacturer_Name" value="LITTELFUSE"/>
+      <property name="Manufacturer_Part_Number" value="PGB1010603NR"/>
+      <property name="Mouser Part Number" value="576-PGB1010603NR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Littelfuse/PGB1010603NR?qs=gu7KAQ731UTJOoBJUwB8FA%3D%3D"/>
+      <property name="Arrow Part Number" value="PGB1010603NR"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/pgb1010603nr/littelfuse?region=nac"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>bb5093f9-b9a0-4102-9c47-60defc059f6e</tstamps>
+    </comp>
+    <comp ref="D403">
+      <value>PGB1010603NR</value>
+      <footprint>tinker:PGB1010603NRHF</footprint>
+      <fields>
+        <field name="Arrow Part Number">PGB1010603NR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/pgb1010603nr/littelfuse?region=nac</field>
+        <field name="Datasheet_1">https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf</field>
+        <field name="Footprint_1">PGB1010603NRHF</field>
+        <field name="Height">0.36</field>
+        <field name="Manufacturer_Name">LITTELFUSE</field>
+        <field name="Manufacturer_Part_Number">PGB1010603NR</field>
+        <field name="Mouser Part Number">576-PGB1010603NR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Littelfuse/PGB1010603NR?qs=gu7KAQ731UTJOoBJUwB8FA%3D%3D</field>
+        <field name="Reference_1">D</field>
+        <field name="Value_1">PGB1010603NR</field>
+      </fields>
+      <libsource lib="tinker" part="PGB1010603NR" description="ESD Suppressors / TVS Diodes 0603 24VDC .06pF"/>
+      <property name="Reference_1" value="D"/>
+      <property name="Value_1" value="PGB1010603NR"/>
+      <property name="Footprint_1" value="PGB1010603NRHF"/>
+      <property name="Datasheet_1" value="https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf"/>
+      <property name="Height" value="0.36"/>
+      <property name="Manufacturer_Name" value="LITTELFUSE"/>
+      <property name="Manufacturer_Part_Number" value="PGB1010603NR"/>
+      <property name="Mouser Part Number" value="576-PGB1010603NR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Littelfuse/PGB1010603NR?qs=gu7KAQ731UTJOoBJUwB8FA%3D%3D"/>
+      <property name="Arrow Part Number" value="PGB1010603NR"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/pgb1010603nr/littelfuse?region=nac"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>817f8bdb-4f91-414a-840a-e81022ccf44b</tstamps>
+    </comp>
+    <comp ref="D404">
+      <value>PGB1010603NR</value>
+      <footprint>tinker:PGB1010603NRHF</footprint>
+      <fields>
+        <field name="Arrow Part Number">PGB1010603NR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/pgb1010603nr/littelfuse?region=nac</field>
+        <field name="Datasheet_1">https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf</field>
+        <field name="Footprint_1">PGB1010603NRHF</field>
+        <field name="Height">0.36</field>
+        <field name="Manufacturer_Name">LITTELFUSE</field>
+        <field name="Manufacturer_Part_Number">PGB1010603NR</field>
+        <field name="Mouser Part Number">576-PGB1010603NR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Littelfuse/PGB1010603NR?qs=gu7KAQ731UTJOoBJUwB8FA%3D%3D</field>
+        <field name="Reference_1">D</field>
+        <field name="Value_1">PGB1010603NR</field>
+      </fields>
+      <libsource lib="tinker" part="PGB1010603NR" description="ESD Suppressors / TVS Diodes 0603 24VDC .06pF"/>
+      <property name="Reference_1" value="D"/>
+      <property name="Value_1" value="PGB1010603NR"/>
+      <property name="Footprint_1" value="PGB1010603NRHF"/>
+      <property name="Datasheet_1" value="https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf"/>
+      <property name="Height" value="0.36"/>
+      <property name="Manufacturer_Name" value="LITTELFUSE"/>
+      <property name="Manufacturer_Part_Number" value="PGB1010603NR"/>
+      <property name="Mouser Part Number" value="576-PGB1010603NR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Littelfuse/PGB1010603NR?qs=gu7KAQ731UTJOoBJUwB8FA%3D%3D"/>
+      <property name="Arrow Part Number" value="PGB1010603NR"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/pgb1010603nr/littelfuse?region=nac"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>4a9bcdae-11d7-433f-b202-0a4928d6efee</tstamps>
+    </comp>
+    <comp ref="J401">
+      <value>USB_C_Receptacle</value>
+      <footprint>tinker:USB_C</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <libsource lib="tinker" part="USB_C_2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>325dc828-99dc-42be-af2f-86e6b24b293e</tstamps>
+    </comp>
+    <comp ref="JP401">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>0216a7ad-90b7-4c0b-98aa-617f134664ce</tstamps>
+    </comp>
+    <comp ref="JP402">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>c917e0c6-b96a-4d5b-9e12-95e3ec3d92a5</tstamps>
+    </comp>
+    <comp ref="L401">
+      <value>4.7uH</value>
+      <footprint>tinker:IND-SMD_L7.1-W6.6</footprint>
+      <fields>
+        <field name="LCSC">C2983090</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
+      <property name="LCSC" value="C2983090"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>95fc8f4b-9b3b-4c51-9332-2013c6bd9f62</tstamps>
+    </comp>
+    <comp ref="R401">
+      <value>300k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>5c10b4f4-f9f4-4274-9f00-838d70039528</tstamps>
+    </comp>
+    <comp ref="R402">
+      <value>51k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>cd907d63-52f1-48d9-a662-59ec8d208af8</tstamps>
+    </comp>
+    <comp ref="R403">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>f7f37281-f13a-47f8-b686-cd0197952f24</tstamps>
+    </comp>
+    <comp ref="R404">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>72ea4692-f403-41be-a55f-128e41198d77</tstamps>
+    </comp>
+    <comp ref="R405">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>def89732-7679-40a0-a3fb-bdd828584403</tstamps>
+    </comp>
+    <comp ref="R406">
+      <value>11k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>4d968fc9-7639-4611-8040-cd00dfda2838</tstamps>
+    </comp>
+    <comp ref="R407">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>a57aba9f-cc19-4d79-8098-c9ed3128099b</tstamps>
+    </comp>
+    <comp ref="R408">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>e4e04166-ff80-48eb-8760-dca37eb35af9</tstamps>
+    </comp>
+    <comp ref="R409">
+      <value>33k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>c55956fb-6ce3-464c-90c2-52e2f70f70b5</tstamps>
+    </comp>
+    <comp ref="R410">
+      <value>2R2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>e3212cd7-5788-4c6c-bdf4-767ec490e66e</tstamps>
+    </comp>
+    <comp ref="R411">
+      <value>2R2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>6aa85063-6454-418f-a492-5c6cc7f97d5c</tstamps>
+    </comp>
+    <comp ref="R412">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>fbfff050-9b2f-4c3e-83f8-7cc62b4b43f0</tstamps>
+    </comp>
+    <comp ref="R413">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>fb350b75-fff5-4653-950b-a57f420eb45d</tstamps>
+    </comp>
+    <comp ref="TP401">
+      <value>CtrlA</value>
+      <footprint>tinker:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>724d1652-4611-4c8c-8633-a23cc1a4e880</tstamps>
+    </comp>
+    <comp ref="TP402">
+      <value>Vmid</value>
+      <footprint>tinker:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>2a38cf1e-2286-44ea-aa19-bbf204df122b</tstamps>
+    </comp>
+    <comp ref="TP403">
+      <value>PD-Vcc</value>
+      <footprint>tinker:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>864486cc-c67c-48d2-8c93-d9528e9a0823</tstamps>
+    </comp>
+    <comp ref="TP404">
+      <value>Vbus</value>
+      <footprint>tinker:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>d2615590-db34-4920-9a04-e5f8a55e9a45</tstamps>
+    </comp>
+    <comp ref="U401">
+      <value>MP2491CGQB-P</value>
+      <footprint>tinker:QFN-13_2p5MMx3MM_MNP</footprint>
+      <datasheet>MP2491CGQB-P</datasheet>
+      <fields>
+        <field name="LCSC">C3187970</field>
+      </fields>
+      <libsource lib="tinker" part="MP2491CGQB-P" description=""/>
+      <property name="LCSC" value="C3187970"/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>ba32e7af-8b25-4d5d-ba47-1ef9347f49ed</tstamps>
+    </comp>
+    <comp ref="U402">
+      <value>MP5031GRE-00A3-P</value>
+      <footprint>tinker:QFN-20_MP5031_MNP</footprint>
+      <datasheet>MP5031GRE-00A3-P</datasheet>
+      <libsource lib="tinker" part="MP5031GRE-00A3-P" description=""/>
+      <property name="Sheetname" value="USB-PD"/>
+      <property name="Sheetfile" value="USB-PD.kicad_sch"/>
+      <sheetpath names="/USB-PD/" tstamps="/66c19f75-9a37-4fa0-8358-70b28f6b31ad/"/>
+      <tstamps>88780598-871a-4968-ae88-0426033752ee</tstamps>
+    </comp>
+    <comp ref="Q601">
+      <value>ZXMP4A16G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ZXMP4A16G.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="ZXMP4A16G" description="-6.4A Id, -40V Vds, P-Channel MOSFET, SOT-223"/>
+      <property name="Sheetname" value="Control A"/>
+      <property name="Sheetfile" value="CtrlA.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/Control A/" tstamps="/10b10896-5180-4e53-a638-f5b731e575e1/"/>
+      <tstamps>4aa74111-bcde-41eb-9faf-7e94175f561a</tstamps>
+    </comp>
+    <comp ref="R601">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Control A"/>
+      <property name="Sheetfile" value="CtrlA.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/Control A/" tstamps="/10b10896-5180-4e53-a638-f5b731e575e1/"/>
+      <tstamps>eb958eb9-7488-4a90-8df9-8b479b7f8673</tstamps>
+    </comp>
+    <comp ref="R602">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Control A"/>
+      <property name="Sheetfile" value="CtrlA.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/Control A/" tstamps="/10b10896-5180-4e53-a638-f5b731e575e1/"/>
+      <tstamps>e7fd6bbc-7b7b-4cfd-a9d2-9a8b069f3b95</tstamps>
+    </comp>
+    <comp ref="TPa601">
+      <value>CtrlA</value>
+      <footprint>tinker:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Control A"/>
+      <property name="Sheetfile" value="CtrlA.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/Control A/" tstamps="/10b10896-5180-4e53-a638-f5b731e575e1/"/>
+      <tstamps>cd0c406d-0d1f-4d18-8085-99caf46284fa</tstamps>
+    </comp>
+    <comp ref="Q701">
+      <value>ZXMP4A16G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ZXMP4A16G.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="ZXMP4A16G" description="-6.4A Id, -40V Vds, P-Channel MOSFET, SOT-223"/>
+      <property name="Sheetname" value="Control B"/>
+      <property name="Sheetfile" value="CtrlB.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/Control B/" tstamps="/76680d8a-9542-4fb8-bd22-f02d3e56b0f4/"/>
+      <tstamps>774943ce-661f-42c4-9876-89946e51d37e</tstamps>
+    </comp>
+    <comp ref="R701">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Control B"/>
+      <property name="Sheetfile" value="CtrlB.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/Control B/" tstamps="/76680d8a-9542-4fb8-bd22-f02d3e56b0f4/"/>
+      <tstamps>72d05ac2-0a55-4959-892f-9fbde3742534</tstamps>
+    </comp>
+    <comp ref="R702">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Control B"/>
+      <property name="Sheetfile" value="CtrlB.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/Control B/" tstamps="/76680d8a-9542-4fb8-bd22-f02d3e56b0f4/"/>
+      <tstamps>8f0d4f50-cbca-4e47-b92e-65a3a27dd86c</tstamps>
+    </comp>
+    <comp ref="TPa701">
+      <value>CtrlA</value>
+      <footprint>tinker:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Control B"/>
+      <property name="Sheetfile" value="CtrlB.kicad_sch"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/Control B/" tstamps="/76680d8a-9542-4fb8-bd22-f02d3e56b0f4/"/>
+      <tstamps>29c47b99-913b-4ce9-8300-d592fcc0d060</tstamps>
+    </comp>
+    <comp ref="C704">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>3999703a-f2d1-491d-b2c2-233160956303</tstamps>
+    </comp>
+    <comp ref="C705">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>c001def7-e7d4-4fa0-b2f0-335cc9690a48</tstamps>
+    </comp>
+    <comp ref="C706">
+      <value>330uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_10x7.7</footprint>
+      <libsource lib="Device" part="CP" description=""/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>d6c192c3-cd47-4464-88ad-f53f1e1045d0</tstamps>
+    </comp>
+    <comp ref="C707">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>0b307ad0-9f26-4069-b64b-9e14936207ff</tstamps>
+    </comp>
+    <comp ref="C708">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>6af2d1e7-83f4-4342-982b-7796e639f684</tstamps>
+    </comp>
+    <comp ref="C709">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>aa0de249-af8f-4998-b9aa-ad04a83b95f5</tstamps>
+    </comp>
+    <comp ref="C710">
+      <value>1nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>3827b82f-9b1d-4531-b633-06163a43e24d</tstamps>
+    </comp>
+    <comp ref="C711">
+      <value>470nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>3b22235a-08ae-4f5f-aca9-c36f056a71a0</tstamps>
+    </comp>
+    <comp ref="C712">
+      <value>2.2uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>150d9bc1-7101-4896-8614-76c1b894dfcc</tstamps>
+    </comp>
+    <comp ref="C713">
+      <value>390pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>46df518b-35d4-42c2-8781-8136c6598e69</tstamps>
+    </comp>
+    <comp ref="C714">
+      <value>390pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>7fb6dfba-a939-425f-92f4-0199511a6720</tstamps>
+    </comp>
+    <comp ref="D701">
+      <value>PGB1010603NR</value>
+      <footprint>tinker:PGB1010603NRHF</footprint>
+      <fields>
+        <field name="Arrow Part Number">PGB1010603NR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/pgb1010603nr/littelfuse?region=nac</field>
+        <field name="Datasheet_1">https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf</field>
+        <field name="Footprint_1">PGB1010603NRHF</field>
+        <field name="Height">0.36</field>
+        <field name="Manufacturer_Name">LITTELFUSE</field>
+        <field name="Manufacturer_Part_Number">PGB1010603NR</field>
+        <field name="Mouser Part Number">576-PGB1010603NR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Littelfuse/PGB1010603NR?qs=gu7KAQ731UTJOoBJUwB8FA%3D%3D</field>
+        <field name="Reference_1">D</field>
+        <field name="Value_1">PGB1010603NR</field>
+      </fields>
+      <libsource lib="tinker" part="PGB1010603NR" description="ESD Suppressors / TVS Diodes 0603 24VDC .06pF"/>
+      <property name="Reference_1" value="D"/>
+      <property name="Value_1" value="PGB1010603NR"/>
+      <property name="Footprint_1" value="PGB1010603NRHF"/>
+      <property name="Datasheet_1" value="https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf"/>
+      <property name="Height" value="0.36"/>
+      <property name="Manufacturer_Name" value="LITTELFUSE"/>
+      <property name="Manufacturer_Part_Number" value="PGB1010603NR"/>
+      <property name="Mouser Part Number" value="576-PGB1010603NR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Littelfuse/PGB1010603NR?qs=gu7KAQ731UTJOoBJUwB8FA%3D%3D"/>
+      <property name="Arrow Part Number" value="PGB1010603NR"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/pgb1010603nr/littelfuse?region=nac"/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>a5a22866-2632-4b80-9d1b-2da2a4c0cd33</tstamps>
+    </comp>
+    <comp ref="D702">
+      <value>PGB1010603NR</value>
+      <footprint>tinker:PGB1010603NRHF</footprint>
+      <fields>
+        <field name="Arrow Part Number">PGB1010603NR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/pgb1010603nr/littelfuse?region=nac</field>
+        <field name="Datasheet_1">https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf</field>
+        <field name="Footprint_1">PGB1010603NRHF</field>
+        <field name="Height">0.36</field>
+        <field name="Manufacturer_Name">LITTELFUSE</field>
+        <field name="Manufacturer_Part_Number">PGB1010603NR</field>
+        <field name="Mouser Part Number">576-PGB1010603NR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Littelfuse/PGB1010603NR?qs=gu7KAQ731UTJOoBJUwB8FA%3D%3D</field>
+        <field name="Reference_1">D</field>
+        <field name="Value_1">PGB1010603NR</field>
+      </fields>
+      <libsource lib="tinker" part="PGB1010603NR" description="ESD Suppressors / TVS Diodes 0603 24VDC .06pF"/>
+      <property name="Reference_1" value="D"/>
+      <property name="Value_1" value="PGB1010603NR"/>
+      <property name="Footprint_1" value="PGB1010603NRHF"/>
+      <property name="Datasheet_1" value="https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf"/>
+      <property name="Height" value="0.36"/>
+      <property name="Manufacturer_Name" value="LITTELFUSE"/>
+      <property name="Manufacturer_Part_Number" value="PGB1010603NR"/>
+      <property name="Mouser Part Number" value="576-PGB1010603NR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Littelfuse/PGB1010603NR?qs=gu7KAQ731UTJOoBJUwB8FA%3D%3D"/>
+      <property name="Arrow Part Number" value="PGB1010603NR"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/pgb1010603nr/littelfuse?region=nac"/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>170c6873-800c-446b-86f1-2761840114bf</tstamps>
+    </comp>
+    <comp ref="D703">
+      <value>PGB1010603NR</value>
+      <footprint>tinker:PGB1010603NRHF</footprint>
+      <fields>
+        <field name="Arrow Part Number">PGB1010603NR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/pgb1010603nr/littelfuse?region=nac</field>
+        <field name="Datasheet_1">https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf</field>
+        <field name="Footprint_1">PGB1010603NRHF</field>
+        <field name="Height">0.36</field>
+        <field name="Manufacturer_Name">LITTELFUSE</field>
+        <field name="Manufacturer_Part_Number">PGB1010603NR</field>
+        <field name="Mouser Part Number">576-PGB1010603NR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Littelfuse/PGB1010603NR?qs=gu7KAQ731UTJOoBJUwB8FA%3D%3D</field>
+        <field name="Reference_1">D</field>
+        <field name="Value_1">PGB1010603NR</field>
+      </fields>
+      <libsource lib="tinker" part="PGB1010603NR" description="ESD Suppressors / TVS Diodes 0603 24VDC .06pF"/>
+      <property name="Reference_1" value="D"/>
+      <property name="Value_1" value="PGB1010603NR"/>
+      <property name="Footprint_1" value="PGB1010603NRHF"/>
+      <property name="Datasheet_1" value="https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf"/>
+      <property name="Height" value="0.36"/>
+      <property name="Manufacturer_Name" value="LITTELFUSE"/>
+      <property name="Manufacturer_Part_Number" value="PGB1010603NR"/>
+      <property name="Mouser Part Number" value="576-PGB1010603NR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Littelfuse/PGB1010603NR?qs=gu7KAQ731UTJOoBJUwB8FA%3D%3D"/>
+      <property name="Arrow Part Number" value="PGB1010603NR"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/pgb1010603nr/littelfuse?region=nac"/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>f21f971c-aca3-4218-a6ff-52872831cef5</tstamps>
+    </comp>
+    <comp ref="D704">
+      <value>PGB1010603NR</value>
+      <footprint>tinker:PGB1010603NRHF</footprint>
+      <fields>
+        <field name="Arrow Part Number">PGB1010603NR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/pgb1010603nr/littelfuse?region=nac</field>
+        <field name="Datasheet_1">https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf</field>
+        <field name="Footprint_1">PGB1010603NRHF</field>
+        <field name="Height">0.36</field>
+        <field name="Manufacturer_Name">LITTELFUSE</field>
+        <field name="Manufacturer_Part_Number">PGB1010603NR</field>
+        <field name="Mouser Part Number">576-PGB1010603NR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Littelfuse/PGB1010603NR?qs=gu7KAQ731UTJOoBJUwB8FA%3D%3D</field>
+        <field name="Reference_1">D</field>
+        <field name="Value_1">PGB1010603NR</field>
+      </fields>
+      <libsource lib="tinker" part="PGB1010603NR" description="ESD Suppressors / TVS Diodes 0603 24VDC .06pF"/>
+      <property name="Reference_1" value="D"/>
+      <property name="Value_1" value="PGB1010603NR"/>
+      <property name="Footprint_1" value="PGB1010603NRHF"/>
+      <property name="Datasheet_1" value="https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf"/>
+      <property name="Height" value="0.36"/>
+      <property name="Manufacturer_Name" value="LITTELFUSE"/>
+      <property name="Manufacturer_Part_Number" value="PGB1010603NR"/>
+      <property name="Mouser Part Number" value="576-PGB1010603NR"/>
+      <property name="Mouser Price/Stock" value="https://www.mouser.co.uk/ProductDetail/Littelfuse/PGB1010603NR?qs=gu7KAQ731UTJOoBJUwB8FA%3D%3D"/>
+      <property name="Arrow Part Number" value="PGB1010603NR"/>
+      <property name="Arrow Price/Stock" value="https://www.arrow.com/en/products/pgb1010603nr/littelfuse?region=nac"/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>723f9578-6c15-4e99-a311-73e4e38590f7</tstamps>
+    </comp>
+    <comp ref="J701">
+      <value>USB_C_Receptacle</value>
+      <footprint>tinker:USB_C</footprint>
+      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
+      <libsource lib="tinker" part="USB_C_2.0" description="USB 2.0-only Type-C Receptacle connector"/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>b17e47e5-85d0-4388-9e60-fb7b04cf4c7c</tstamps>
+    </comp>
+    <comp ref="JP702">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>54f926c4-24af-4f4a-a687-6783b6bf4300</tstamps>
+    </comp>
+    <comp ref="JP703">
+      <value>SolderJumper_2_Open</value>
+      <footprint>Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm</footprint>
+      <libsource lib="Jumper" part="SolderJumper_2_Open" description="Solder Jumper, 2-pole, open"/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>15049399-a845-466a-87eb-33b1f2ff5aba</tstamps>
+    </comp>
+    <comp ref="L701">
+      <value>4.7uH</value>
+      <footprint>tinker:IND-SMD_L7.1-W6.6</footprint>
+      <fields>
+        <field name="LCSC">C2983090</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
+      <property name="LCSC" value="C2983090"/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>330357ca-ad64-4b5a-85a0-1e05200e91b5</tstamps>
+    </comp>
+    <comp ref="R703">
+      <value>300k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>c222e548-bf0c-43da-b1c2-46f272988545</tstamps>
+    </comp>
+    <comp ref="R704">
+      <value>51k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>4f29cb78-95f7-48f6-9dc9-90d0cf94dcad</tstamps>
+    </comp>
+    <comp ref="R705">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>a6ce86a1-4535-4def-86be-be441e8060c4</tstamps>
+    </comp>
+    <comp ref="R706">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>160ddaeb-3b0c-4cc9-8649-549aa3eaee56</tstamps>
+    </comp>
+    <comp ref="R707">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>0bda1c34-0b7e-4ffe-937d-6012676ca610</tstamps>
+    </comp>
+    <comp ref="R708">
+      <value>11k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>5dff201b-e2b8-4264-99cc-e4e48ab807b9</tstamps>
+    </comp>
+    <comp ref="R709">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>ae67c2fd-5976-4294-a149-ef37dea4029f</tstamps>
+    </comp>
+    <comp ref="R710">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>06081f80-6a55-4792-ae61-15b37c3bb0ab</tstamps>
+    </comp>
+    <comp ref="R711">
+      <value>33k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>898c35cb-16c3-45d0-b4f3-82dfe7d52758</tstamps>
+    </comp>
+    <comp ref="R712">
+      <value>2R2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>39dc72d4-affe-460f-a3bc-af5a76a0751f</tstamps>
+    </comp>
+    <comp ref="R713">
+      <value>2R2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>78b130b9-3a5e-4243-95e7-a708e2b751ab</tstamps>
+    </comp>
+    <comp ref="R714">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>6e7e9544-eaba-4dbb-950d-daacf12d6b3c</tstamps>
+    </comp>
+    <comp ref="R715">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>78fff7aa-03d7-418a-823d-b75b05fe3423</tstamps>
+    </comp>
+    <comp ref="TP701">
+      <value>CtrlB</value>
+      <footprint>tinker:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>c43d70d6-2467-40f5-bad9-5c92ef44e237</tstamps>
+    </comp>
+    <comp ref="TP702">
+      <value>Vmid</value>
+      <footprint>tinker:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>dd3ca0ec-5d9f-4a34-adc4-65a70cf6306d</tstamps>
+    </comp>
+    <comp ref="TP703">
+      <value>PD-Vcc</value>
+      <footprint>tinker:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>d2ba5331-842a-4e55-bf59-75f0b3d98d4f</tstamps>
+    </comp>
+    <comp ref="TP704">
+      <value>Vbus</value>
+      <footprint>tinker:TestPoint_THTPad_D1.0mm_Drill0.5mm</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>8202b201-bdc7-47f7-8348-d43cb8793f33</tstamps>
+    </comp>
+    <comp ref="U701">
+      <value>MP2491CGQB-P</value>
+      <footprint>tinker:QFN-13_2p5MMx3MM_MNP</footprint>
+      <datasheet>MP2491CGQB-P</datasheet>
+      <fields>
+        <field name="LCSC">C3187970</field>
+      </fields>
+      <libsource lib="tinker" part="MP2491CGQB-P" description=""/>
+      <property name="LCSC" value="C3187970"/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>9f3957e9-22f0-46ed-9c8f-2dc51503c556</tstamps>
+    </comp>
+    <comp ref="U702">
+      <value>MP5031GRE-00A3-P</value>
+      <footprint>tinker:QFN-20_MP5031_MNP</footprint>
+      <datasheet>MP5031GRE-00A3-P</datasheet>
+      <libsource lib="tinker" part="MP5031GRE-00A3-P" description=""/>
+      <property name="Sheetname" value="USB-PD-2"/>
+      <property name="Sheetfile" value="USB-PD-2.kicad_sch"/>
+      <sheetpath names="/USB-PD-2/" tstamps="/b599c6be-0ea9-4e36-ab3a-291a4ab4369e/"/>
+      <tstamps>5a47d76f-244e-4f57-b349-ab9e7c0c79c6</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">Device_CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Ferrite">
+      <description>Inductor with ferrite core</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Ferrite</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse">
+      <description>Resettable fuse, polymeric positive temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_2_Bridged">
+      <description>Jumper, 2-pole, closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_2_Bridged</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATtiny" part="ATtiny817-M">
+      <description>20MHz, 8kB Flash, 512B SRAM, 128B EEPROM, VQFN-24</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/40001901B.pdf</docs>
+      <footprints>
+        <fp>QFN*1EP*4x4mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATtiny817-M</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/40001901B.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PA2" type="bidirectional"/>
+        <pin num="2" name="PA3" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="PA4" type="bidirectional"/>
+        <pin num="6" name="PA5" type="bidirectional"/>
+        <pin num="7" name="PA6" type="bidirectional"/>
+        <pin num="8" name="PA7" type="bidirectional"/>
+        <pin num="9" name="PB7" type="bidirectional"/>
+        <pin num="10" name="PB6" type="bidirectional"/>
+        <pin num="11" name="PB5" type="bidirectional"/>
+        <pin num="12" name="PB4" type="bidirectional"/>
+        <pin num="13" name="PB3" type="bidirectional"/>
+        <pin num="14" name="PB2" type="bidirectional"/>
+        <pin num="15" name="PB1" type="bidirectional"/>
+        <pin num="16" name="PB0" type="bidirectional"/>
+        <pin num="17" name="PC0" type="bidirectional"/>
+        <pin num="18" name="PC1" type="bidirectional"/>
+        <pin num="19" name="PC2" type="bidirectional"/>
+        <pin num="20" name="PC3" type="bidirectional"/>
+        <pin num="21" name="PC4" type="bidirectional"/>
+        <pin num="22" name="PC5" type="bidirectional"/>
+        <pin num="23" name="~{RESET}/PA0" type="bidirectional"/>
+        <pin num="24" name="PA1" type="bidirectional"/>
+        <pin num="25" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="ZXMP4A16G">
+      <description>-6.4A Id, -40V Vds, P-Channel MOSFET, SOT-223</description>
+      <docs>https://www.diodes.com/assets/Datasheets/ZXMP4A16G.pdf</docs>
+      <footprints>
+        <fp>SOT?223*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">ZXMP4A16G</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/ZXMP4A16G.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tinker" part="MP2491CGQB-P">
+      <docs>MP2491CGQB-P</docs>
+      <footprints>
+        <fp>QFN-13_2p5MMx3MM_MNP</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MP2491CGQB-P</field>
+        <field name="Footprint">QFN-13_2p5MMx3MM_MNP</field>
+        <field name="Datasheet">MP2491CGQB-P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="PGND" type="power_out"/>
+        <pin num="3" name="VCC" type="power_in"/>
+        <pin num="4" name="VSEL1" type="unspecified"/>
+        <pin num="5" name="VSEL2" type="unspecified"/>
+        <pin num="6" name="FB" type="unspecified"/>
+        <pin num="7" name="AGND" type="power_out"/>
+        <pin num="8" name="SW" type="output"/>
+        <pin num="9" name="BST" type="unspecified"/>
+        <pin num="10" name="MODE" type="unspecified"/>
+        <pin num="11" name="EN" type="unspecified"/>
+        <pin num="12" name="ILIM" type="unspecified"/>
+        <pin num="13" name="PG" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="tinker" part="MP5031GRE-00A3-P">
+      <docs>MP5031GRE-00A3-P</docs>
+      <footprints>
+        <fp>QFN-20_MP5031_MNP</fp>
+        <fp>QFN-20_MP5031_MNP-M</fp>
+        <fp>QFN-20_MP5031_MNP-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MP5031GRE-00A3-P</field>
+        <field name="Footprint">QFN-20_MP5031_MNP</field>
+        <field name="Datasheet">MP5031GRE-00A3-P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDA" type="bidirectional"/>
+        <pin num="2" name="SCL" type="bidirectional"/>
+        <pin num="3" name="GPIO1" type="bidirectional"/>
+        <pin num="4" name="GPIO5" type="bidirectional"/>
+        <pin num="5" name="I2C_MODE" type="input"/>
+        <pin num="6" name="VDD" type="power_in"/>
+        <pin num="7" name="VCC" type="input"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="GPIO3" type="bidirectional"/>
+        <pin num="10" name="GPIO4" type="bidirectional"/>
+        <pin num="11" name="GPIO2" type="bidirectional"/>
+        <pin num="12" name="GPIO6" type="bidirectional"/>
+        <pin num="13" name="NTC" type="input"/>
+        <pin num="14" name="CC2" type="bidirectional"/>
+        <pin num="15" name="CC1" type="bidirectional"/>
+        <pin num="16" name="DP" type="bidirectional"/>
+        <pin num="17" name="DM" type="bidirectional"/>
+        <pin num="18" name="GPIO7" type="bidirectional"/>
+        <pin num="19" name="VDRV" type="output"/>
+        <pin num="20" name="VBUS_P" type="power_in"/>
+        <pin num="21" name="EPAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="tinker" part="PGB1010603NR">
+      <description>ESD Suppressors / TVS Diodes 0603 24VDC .06pF</description>
+      <fields>
+        <field name="Reference">D2</field>
+        <field name="Value">PGB1010603NR</field>
+        <field name="Footprint">tinker:PGB1010603NRHF</field>
+        <field name="Reference_1">D</field>
+        <field name="Value_1">PGB1010603NR</field>
+        <field name="Footprint_1">PGB1010603NRHF</field>
+        <field name="Datasheet_1">https://www.littelfuse.com/data/en/data_sheets/littelfuse_pulseguard-esd_pgb1.pdf</field>
+        <field name="Height">0.36</field>
+        <field name="Manufacturer_Name">LITTELFUSE</field>
+        <field name="Manufacturer_Part_Number">PGB1010603NR</field>
+        <field name="Mouser Part Number">576-PGB1010603NR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Littelfuse/PGB1010603NR?qs=gu7KAQ731UTJOoBJUwB8FA%3D%3D</field>
+        <field name="Arrow Part Number">PGB1010603NR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/pgb1010603nr/littelfuse?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tinker" part="USB_C_2.0">
+      <description>USB 2.0-only Type-C Receptacle connector</description>
+      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
+      <footprints>
+        <fp>USB*C*Receptacle*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_C_2.0</field>
+        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="passive"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="SHIELD" type="passive"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/usr/share/kicad/symbols//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Microchip_ATtiny">
+      <uri>/usr/share/kicad/symbols//MCU_Microchip_ATtiny.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/usr/share/kicad/symbols//Transistor_FET.kicad_sym</uri>
+    </library>
+    <library logical="tinker">
+      <uri>/home/tinker/Documents/GIT/USB-Power-Strip/Hardware/KiCAD Customs/symbols/tinker.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/ATTinyXX17/PA0">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="~{RESET}/PA0" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="/Source Power Rail/Vprot">
+      <node ref="D301" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F301" pin="2" pintype="passive"/>
+    </net>
+    <net code="3" name="/USB-PD-2/Vmid2">
+      <node ref="C705" pin="2" pintype="passive"/>
+      <node ref="L701" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP702" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U701" pin="8" pinfunction="SW" pintype="output"/>
+    </net>
+    <net code="4" name="/USB-PD/Vmid">
+      <node ref="C405" pin="2" pintype="passive"/>
+      <node ref="L401" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP402" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U401" pin="8" pinfunction="SW" pintype="output"/>
+    </net>
+    <net code="5" name="CC1">
+      <node ref="D402" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J401" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R410" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="CC1b">
+      <node ref="D702" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J701" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R712" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="CC2">
+      <node ref="D401" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J401" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R411" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="CC2b">
+      <node ref="D701" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J701" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R713" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="D+">
+      <node ref="C409" pin="1" pintype="passive"/>
+      <node ref="D403" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J401" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U402" pin="16" pinfunction="DP" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="D-">
+      <node ref="C410" pin="1" pintype="passive"/>
+      <node ref="D404" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J401" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U402" pin="17" pinfunction="DM" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="Db+">
+      <node ref="C709" pin="1" pintype="passive"/>
+      <node ref="D703" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J701" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="U702" pin="16" pinfunction="DP" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="Db-">
+      <node ref="C710" pin="1" pintype="passive"/>
+      <node ref="D704" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J701" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="U702" pin="17" pinfunction="DM" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C401" pin="2" pintype="passive"/>
+      <node ref="C402" pin="2" pintype="passive"/>
+      <node ref="C403" pin="2" pintype="passive"/>
+      <node ref="C404" pin="2" pintype="passive"/>
+      <node ref="C406" pin="2" pintype="passive"/>
+      <node ref="C407" pin="2" pintype="passive"/>
+      <node ref="C408" pin="2" pintype="passive"/>
+      <node ref="C409" pin="2" pintype="passive"/>
+      <node ref="C410" pin="2" pintype="passive"/>
+      <node ref="C411" pin="2" pintype="passive"/>
+      <node ref="C412" pin="2" pintype="passive"/>
+      <node ref="C413" pin="2" pintype="passive"/>
+      <node ref="C414" pin="2" pintype="passive"/>
+      <node ref="C704" pin="2" pintype="passive"/>
+      <node ref="C706" pin="2" pintype="passive"/>
+      <node ref="C707" pin="2" pintype="passive"/>
+      <node ref="C708" pin="2" pintype="passive"/>
+      <node ref="C709" pin="2" pintype="passive"/>
+      <node ref="C710" pin="2" pintype="passive"/>
+      <node ref="C711" pin="2" pintype="passive"/>
+      <node ref="C712" pin="2" pintype="passive"/>
+      <node ref="C713" pin="2" pintype="passive"/>
+      <node ref="C714" pin="2" pintype="passive"/>
+      <node ref="D401" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="D402" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="D403" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="D404" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="D701" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="D702" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="D703" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="D704" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J401" pin="4" pinfunction="GND" pintype="passive"/>
+      <node ref="J401" pin="5" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J701" pin="4" pinfunction="GND" pintype="passive"/>
+      <node ref="J701" pin="5" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="R402" pin="2" pintype="passive"/>
+      <node ref="R406" pin="2" pintype="passive"/>
+      <node ref="R412" pin="2" pintype="passive"/>
+      <node ref="R413" pin="2" pintype="passive"/>
+      <node ref="R704" pin="2" pintype="passive"/>
+      <node ref="R708" pin="2" pintype="passive"/>
+      <node ref="R714" pin="2" pintype="passive"/>
+      <node ref="R715" pin="2" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U401" pin="10" pinfunction="MODE" pintype="unspecified"/>
+      <node ref="U401" pin="2" pinfunction="PGND" pintype="power_out"/>
+      <node ref="U401" pin="7" pinfunction="AGND" pintype="power_out"/>
+      <node ref="U402" pin="21" pinfunction="EPAD" pintype="power_in"/>
+      <node ref="U402" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U701" pin="10" pinfunction="MODE" pintype="unspecified"/>
+      <node ref="U701" pin="2" pinfunction="PGND" pintype="power_out"/>
+      <node ref="U701" pin="7" pinfunction="AGND" pintype="power_out"/>
+      <node ref="U702" pin="21" pinfunction="EPAD" pintype="power_in"/>
+      <node ref="U702" pin="8" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="15" name="GPIO1">
+      <node ref="R408" pin="2" pintype="passive"/>
+      <node ref="U402" pin="3" pinfunction="GPIO1" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="GPIO1b">
+      <node ref="R710" pin="2" pintype="passive"/>
+      <node ref="U702" pin="3" pinfunction="GPIO1" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="GPIO2">
+      <node ref="U402" pin="11" pinfunction="GPIO2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="18" name="GPIO2b">
+      <node ref="U702" pin="11" pinfunction="GPIO2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="19" name="GPIO3">
+      <node ref="U402" pin="9" pinfunction="GPIO3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="20" name="GPIO3b">
+      <node ref="U702" pin="9" pinfunction="GPIO3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="21" name="GPIO4">
+      <node ref="U402" pin="10" pinfunction="GPIO4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="22" name="GPIO4b">
+      <node ref="U702" pin="10" pinfunction="GPIO4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="23" name="GPIO5">
+      <node ref="R407" pin="2" pintype="passive+no_connect"/>
+      <node ref="U402" pin="4" pinfunction="GPIO5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="24" name="GPIO5b">
+      <node ref="R709" pin="2" pintype="passive+no_connect"/>
+      <node ref="U702" pin="4" pinfunction="GPIO5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="25" name="GPIO6">
+      <node ref="U402" pin="12" pinfunction="GPIO6" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="GPIO6b">
+      <node ref="U702" pin="12" pinfunction="GPIO6" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="I2C-Vcc">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="28" name="Net-(C405-Pad1)">
+      <node ref="C405" pin="1" pintype="passive"/>
+      <node ref="U401" pin="9" pinfunction="BST" pintype="unspecified"/>
+    </net>
+    <net code="29" name="Net-(C411-Pad1)">
+      <node ref="C411" pin="1" pintype="passive"/>
+      <node ref="U402" pin="6" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="30" name="Net-(C413-Pad1)">
+      <node ref="C413" pin="1" pintype="passive"/>
+      <node ref="R411" pin="1" pintype="passive"/>
+      <node ref="U402" pin="14" pinfunction="CC2" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="Net-(C414-Pad1)">
+      <node ref="C414" pin="1" pintype="passive"/>
+      <node ref="R410" pin="1" pintype="passive"/>
+      <node ref="U402" pin="15" pinfunction="CC1" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="Net-(C705-Pad1)">
+      <node ref="C705" pin="1" pintype="passive"/>
+      <node ref="U701" pin="9" pinfunction="BST" pintype="unspecified"/>
+    </net>
+    <net code="33" name="Net-(C711-Pad1)">
+      <node ref="C711" pin="1" pintype="passive"/>
+      <node ref="U702" pin="6" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="34" name="Net-(C713-Pad1)">
+      <node ref="C713" pin="1" pintype="passive"/>
+      <node ref="R713" pin="1" pintype="passive"/>
+      <node ref="U702" pin="14" pinfunction="CC2" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="Net-(C714-Pad1)">
+      <node ref="C714" pin="1" pintype="passive"/>
+      <node ref="R712" pin="1" pintype="passive"/>
+      <node ref="U702" pin="15" pinfunction="CC1" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="Net-(JP401-Pad2)">
+      <node ref="JP401" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U402" pin="1" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="Net-(JP402-Pad2)">
+      <node ref="JP402" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U402" pin="2" pinfunction="SCL" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="Net-(JP702-Pad2)">
+      <node ref="JP702" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U702" pin="1" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="Net-(JP703-Pad2)">
+      <node ref="JP703" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="U702" pin="2" pinfunction="SCL" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="Net-(Q601-Pad1)">
+      <node ref="Q601" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R601" pin="2" pintype="passive"/>
+      <node ref="R602" pin="2" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(Q701-Pad1)">
+      <node ref="Q701" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R701" pin="2" pintype="passive"/>
+      <node ref="R702" pin="2" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(R402-Pad1)">
+      <node ref="R402" pin="1" pintype="passive"/>
+      <node ref="U401" pin="12" pinfunction="ILIM" pintype="unspecified"/>
+    </net>
+    <net code="43" name="Net-(R405-Pad2)">
+      <node ref="R405" pin="2" pintype="passive"/>
+      <node ref="R406" pin="1" pintype="passive"/>
+      <node ref="U401" pin="6" pinfunction="FB" pintype="unspecified"/>
+    </net>
+    <net code="44" name="Net-(R409-Pad2)">
+      <node ref="R409" pin="2" pintype="passive"/>
+      <node ref="R413" pin="1" pintype="passive"/>
+      <node ref="U402" pin="13" pinfunction="NTC" pintype="input"/>
+    </net>
+    <net code="45" name="Net-(R412-Pad1)">
+      <node ref="R412" pin="1" pintype="passive"/>
+      <node ref="U402" pin="5" pinfunction="I2C_MODE" pintype="input"/>
+    </net>
+    <net code="46" name="Net-(R704-Pad1)">
+      <node ref="R704" pin="1" pintype="passive"/>
+      <node ref="U701" pin="12" pinfunction="ILIM" pintype="unspecified"/>
+    </net>
+    <net code="47" name="Net-(R707-Pad2)">
+      <node ref="R707" pin="2" pintype="passive"/>
+      <node ref="R708" pin="1" pintype="passive"/>
+      <node ref="U701" pin="6" pinfunction="FB" pintype="unspecified"/>
+    </net>
+    <net code="48" name="Net-(R711-Pad2)">
+      <node ref="R711" pin="2" pintype="passive"/>
+      <node ref="R715" pin="1" pintype="passive"/>
+      <node ref="U702" pin="13" pinfunction="NTC" pintype="input"/>
+    </net>
+    <net code="49" name="Net-(R714-Pad1)">
+      <node ref="R714" pin="1" pintype="passive"/>
+      <node ref="U702" pin="5" pinfunction="I2C_MODE" pintype="input"/>
+    </net>
+    <net code="50" name="PA1">
+      <node ref="R401" pin="2" pintype="passive"/>
+      <node ref="R601" pin="1" pintype="passive"/>
+      <node ref="TP401" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TPa601" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="PA1" pintype="bidirectional"/>
+      <node ref="U401" pin="11" pinfunction="EN" pintype="unspecified"/>
+    </net>
+    <net code="51" name="PA2">
+      <node ref="R701" pin="1" pintype="passive"/>
+      <node ref="R703" pin="2" pintype="passive"/>
+      <node ref="TP701" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TPa701" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="PA2" pintype="bidirectional"/>
+      <node ref="U701" pin="11" pinfunction="EN" pintype="unspecified"/>
+    </net>
+    <net code="52" name="PA3">
+      <node ref="U1" pin="2" pinfunction="PA3" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="PA4">
+      <node ref="U1" pin="5" pinfunction="PA4" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="PA5">
+      <node ref="U1" pin="6" pinfunction="PA5" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="PA6">
+      <node ref="U1" pin="7" pinfunction="PA6" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="PA7">
+      <node ref="U1" pin="8" pinfunction="PA7" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="PB0">
+      <node ref="JP402" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP703" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="PB0" pintype="bidirectional"/>
+    </net>
+    <net code="58" name="PB1">
+      <node ref="JP401" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP702" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="PB1" pintype="bidirectional"/>
+    </net>
+    <net code="59" name="PB2">
+      <node ref="U1" pin="14" pinfunction="PB2" pintype="bidirectional"/>
+    </net>
+    <net code="60" name="PB3">
+      <node ref="U1" pin="13" pinfunction="PB3" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="PB4">
+      <node ref="U1" pin="12" pinfunction="PB4" pintype="bidirectional"/>
+    </net>
+    <net code="62" name="PB5">
+      <node ref="U1" pin="11" pinfunction="PB5" pintype="bidirectional"/>
+    </net>
+    <net code="63" name="PB6">
+      <node ref="U1" pin="10" pinfunction="PB6" pintype="bidirectional"/>
+    </net>
+    <net code="64" name="PB7">
+      <node ref="U1" pin="9" pinfunction="PB7" pintype="bidirectional"/>
+    </net>
+    <net code="65" name="PC0">
+      <node ref="U1" pin="17" pinfunction="PC0" pintype="bidirectional"/>
+    </net>
+    <net code="66" name="PC1">
+      <node ref="U1" pin="18" pinfunction="PC1" pintype="bidirectional"/>
+    </net>
+    <net code="67" name="PC2">
+      <node ref="U1" pin="19" pinfunction="PC2" pintype="bidirectional"/>
+    </net>
+    <net code="68" name="PC3">
+      <node ref="U1" pin="20" pinfunction="PC3" pintype="bidirectional"/>
+    </net>
+    <net code="69" name="PC4">
+      <node ref="U1" pin="21" pinfunction="PC4" pintype="bidirectional"/>
+    </net>
+    <net code="70" name="PC5">
+      <node ref="U1" pin="22" pinfunction="PC5" pintype="bidirectional"/>
+    </net>
+    <net code="71" name="PD-Vcc">
+      <node ref="C404" pin="1" pintype="passive"/>
+      <node ref="C412" pin="1" pintype="passive"/>
+      <node ref="R403" pin="1" pintype="passive"/>
+      <node ref="R404" pin="1" pintype="passive"/>
+      <node ref="R409" pin="1" pintype="passive"/>
+      <node ref="TP403" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U401" pin="3" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U402" pin="7" pinfunction="VCC" pintype="input"/>
+    </net>
+    <net code="72" name="PD-Vccb">
+      <node ref="C704" pin="1" pintype="passive"/>
+      <node ref="C712" pin="1" pintype="passive"/>
+      <node ref="R705" pin="1" pintype="passive"/>
+      <node ref="R706" pin="1" pintype="passive"/>
+      <node ref="R711" pin="1" pintype="passive"/>
+      <node ref="TP703" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U701" pin="3" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U702" pin="7" pinfunction="VCC" pintype="input"/>
+    </net>
+    <net code="75" name="VSEL1">
+      <node ref="R403" pin="2" pintype="passive"/>
+      <node ref="R408" pin="1" pintype="passive"/>
+      <node ref="U401" pin="4" pinfunction="VSEL1" pintype="unspecified"/>
+    </net>
+    <net code="76" name="VSEL1b">
+      <node ref="R705" pin="2" pintype="passive"/>
+      <node ref="R710" pin="1" pintype="passive"/>
+      <node ref="U701" pin="4" pinfunction="VSEL1" pintype="unspecified"/>
+    </net>
+    <net code="77" name="VSEL2">
+      <node ref="R404" pin="2" pintype="passive"/>
+      <node ref="R407" pin="1" pintype="passive"/>
+      <node ref="U401" pin="5" pinfunction="VSEL2" pintype="unspecified"/>
+    </net>
+    <net code="78" name="VSEL2b">
+      <node ref="R706" pin="2" pintype="passive"/>
+      <node ref="R709" pin="1" pintype="passive"/>
+      <node ref="U701" pin="5" pinfunction="VSEL2" pintype="unspecified"/>
+    </net>
+    <net code="79" name="Vbus1">
+      <node ref="C406" pin="1" pintype="passive"/>
+      <node ref="C407" pin="1" pintype="passive"/>
+      <node ref="C408" pin="1" pintype="passive"/>
+      <node ref="J401" pin="1" pinfunction="VBUS" pintype="passive"/>
+      <node ref="L401" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R405" pin="1" pintype="passive"/>
+      <node ref="TP404" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U402" pin="20" pinfunction="VBUS_P" pintype="power_in"/>
+    </net>
+    <net code="80" name="Vbus2">
+      <node ref="C706" pin="1" pintype="passive"/>
+      <node ref="C707" pin="1" pintype="passive"/>
+      <node ref="C708" pin="1" pintype="passive"/>
+      <node ref="J701" pin="1" pinfunction="VBUS" pintype="passive"/>
+      <node ref="L701" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R707" pin="1" pintype="passive"/>
+      <node ref="TP704" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U702" pin="20" pinfunction="VBUS_P" pintype="power_in"/>
+    </net>
+    <net code="81" name="Vin">
+      <node ref="C401" pin="1" pintype="passive"/>
+      <node ref="C402" pin="1" pintype="passive"/>
+      <node ref="C403" pin="1" pintype="passive"/>
+      <node ref="D301" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q601" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q701" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R401" pin="1" pintype="passive"/>
+      <node ref="R602" pin="1" pintype="passive"/>
+      <node ref="R702" pin="1" pintype="passive"/>
+      <node ref="R703" pin="1" pintype="passive"/>
+      <node ref="U401" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U701" pin="1" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="83" name="Vsrc">
+      <node ref="F301" pin="1" pintype="passive"/>
+    </net>
+    <net code="84" name="VswA">
+      <node ref="Q601" pin="2" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="85" name="VswB">
+      <node ref="Q701" pin="2" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="86" name="unconnected-(J401-PadA8)">
+      <node ref="J401" pin="A8" pinfunction="SBU1" pintype="bidirectional"/>
+    </net>
+    <net code="87" name="unconnected-(J401-PadB8)">
+      <node ref="J401" pin="B8" pinfunction="SBU2" pintype="bidirectional"/>
+    </net>
+    <net code="88" name="unconnected-(J701-PadA8)">
+      <node ref="J701" pin="A8" pinfunction="SBU1" pintype="bidirectional"/>
+    </net>
+    <net code="89" name="unconnected-(J701-PadB8)">
+      <node ref="J701" pin="B8" pinfunction="SBU2" pintype="bidirectional"/>
+    </net>
+    <net code="90" name="unconnected-(U401-Pad13)">
+      <node ref="U401" pin="13" pinfunction="PG" pintype="output+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U402-Pad18)">
+      <node ref="U402" pin="18" pinfunction="GPIO7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U402-Pad19)">
+      <node ref="U402" pin="19" pinfunction="VDRV" pintype="output"/>
+    </net>
+    <net code="93" name="unconnected-(U701-Pad13)">
+      <node ref="U701" pin="13" pinfunction="PG" pintype="output+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(U702-Pad18)">
+      <node ref="U702" pin="18" pinfunction="GPIO7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(U702-Pad19)">
+      <node ref="U702" pin="19" pinfunction="VDRV" pintype="output"/>
+    </net>
+    <net code="96" name="~{RESET}">
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+  </nets>
+</export>

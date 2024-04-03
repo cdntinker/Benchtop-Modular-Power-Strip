@@ -1,0 +1,17 @@
+(module VALCON_802-S-12-S-R (layer F.Cu) (tedit 61F619A6)
+  (fp_text reference REF** (at -12.192 -0.508 -90) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value VALCON_802-S-12-S-R (at 0.8186 -6.44438 180) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start 11.33 -5) (end 11.33 5) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 11.33 5) (end -11.33 5) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -11.33 5) (end -11.33 -5) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -11.33 -5) (end 11.33 -5) (layer F.CrtYd) (width 0.05))
+  (model ${KISYS3DMOD}/Valcon/802-S-12-S-R--3DModel-STEP-56544.STEP
+    (offset (xyz 0 0 -12))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -45 0 0))
+  )
+)

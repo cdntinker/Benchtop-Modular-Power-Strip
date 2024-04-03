@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/tinker/Documents/GIT/USB-Power-Strip/Hardware/Backplane/Backplane.kicad_sch</source>
+    <date>Sat 23 Mar 2024 06:41:33 PM</date>
+    <tool>Eeschema 6.0.11+dfsg-1~bpo11+1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>BenchTop Modular Power Strip - Backplane</title>
+        <company>S. A. Miller</company>
+        <rev>0.0.2</rev>
+        <date/>
+        <source>Backplane.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C107059</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C107059"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7e092fb-5111-41ee-b84e-170d9d132449</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc13def2-7e81-4c64-b4dd-842f91554106</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>330uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_8x10</footprint>
+      <fields>
+        <field name="LCSC">C178599</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="LCSC" value="C178599"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15da82ed-17de-49ce-8303-44e95d853c03</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C44567</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C44567"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ff806cd-e182-4638-bf74-598e34eda87e</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>10nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C107059</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C107059"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6cb18a12-f851-4196-b20e-a353dfb82715</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>330uF</value>
+      <footprint>Capacitor_SMD:CP_Elec_8x10</footprint>
+      <fields>
+        <field name="LCSC">C178599</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="LCSC" value="C178599"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>caead1b7-babc-435d-b741-cdb22ccc568a</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>2.2nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C107082</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C107082"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b7eb7bea-3049-487b-95b7-0318dc5da6e0</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>DSK24</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C908229</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="LCSC" value="C908229"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c99a5448-cbc8-4579-a55f-a09f5723de73</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>DSK24</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <fields>
+        <field name="LCSC">C908229</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="LCSC" value="C908229"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>492c3f8b-add9-4cd3-a3a8-5bdf29275406</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>802-S-12-S-R</value>
+      <footprint>tinker:CONN-TH_12P-P2.54_WINGTAT_ED12BGFBK</footprint>
+      <datasheet>https://www.toby.co.uk/uploads/publications/248.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C5173290</field>
+        <field name="LCSC brand/model">WingTAT ED12BGFBK</field>
+        <field name="MANUFACTURER">Valcon</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">15.5mm</field>
+        <field name="PARTREV">April 28, 2021</field>
+        <field name="STANDARD">Manufacturer recommendations</field>
+      </fields>
+      <libsource lib="802-S-12-S-R" part="802-S-12-S-R" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="15.5mm"/>
+      <property name="PARTREV" value="April 28, 2021"/>
+      <property name="MANUFACTURER" value="Valcon"/>
+      <property name="STANDARD" value="Manufacturer recommendations"/>
+      <property name="LCSC" value="C5173290"/>
+      <property name="LCSC brand/model" value="WingTAT ED12BGFBK"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2dabe1ad-b486-435f-af57-760a30418cc3</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>802-S-12-S-R</value>
+      <footprint>tinker:CONN-TH_12P-P2.54_WINGTAT_ED12BGFBK</footprint>
+      <datasheet>https://www.toby.co.uk/uploads/publications/248.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C5173290</field>
+        <field name="LCSC brand/model">WingTAT ED12BGFBK</field>
+        <field name="MANUFACTURER">Valcon</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">15.5mm</field>
+        <field name="PARTREV">April 28, 2021</field>
+        <field name="STANDARD">Manufacturer recommendations</field>
+      </fields>
+      <libsource lib="802-S-12-S-R" part="802-S-12-S-R" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="15.5mm"/>
+      <property name="PARTREV" value="April 28, 2021"/>
+      <property name="MANUFACTURER" value="Valcon"/>
+      <property name="STANDARD" value="Manufacturer recommendations"/>
+      <property name="LCSC" value="C5173290"/>
+      <property name="LCSC brand/model" value="WingTAT ED12BGFBK"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d3a7492-00bc-47a6-a3b4-fa9bb84f7c4c</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>802-S-12-S-R</value>
+      <footprint>tinker:CONN-TH_12P-P2.54_WINGTAT_ED12BGFBK</footprint>
+      <datasheet>https://www.toby.co.uk/uploads/publications/248.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C5173290</field>
+        <field name="LCSC brand/model">WingTAT ED12BGFBK</field>
+        <field name="MANUFACTURER">Valcon</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">15.5mm</field>
+        <field name="PARTREV">April 28, 2021</field>
+        <field name="STANDARD">Manufacturer recommendations</field>
+      </fields>
+      <libsource lib="802-S-12-S-R" part="802-S-12-S-R" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="15.5mm"/>
+      <property name="PARTREV" value="April 28, 2021"/>
+      <property name="MANUFACTURER" value="Valcon"/>
+      <property name="STANDARD" value="Manufacturer recommendations"/>
+      <property name="LCSC" value="C5173290"/>
+      <property name="LCSC brand/model" value="WingTAT ED12BGFBK"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>660a45e9-4ca9-4a24-a461-606b9a3b0ef8</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>802-S-12-S-R</value>
+      <footprint>tinker:CONN-TH_12P-P2.54_WINGTAT_ED12BGFBK</footprint>
+      <datasheet>https://www.toby.co.uk/uploads/publications/248.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C5173290</field>
+        <field name="LCSC brand/model">WingTAT ED12BGFBK</field>
+        <field name="MANUFACTURER">Valcon</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">15.5mm</field>
+        <field name="PARTREV">April 28, 2021</field>
+        <field name="STANDARD">Manufacturer recommendations</field>
+      </fields>
+      <libsource lib="802-S-12-S-R" part="802-S-12-S-R" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="15.5mm"/>
+      <property name="PARTREV" value="April 28, 2021"/>
+      <property name="MANUFACTURER" value="Valcon"/>
+      <property name="STANDARD" value="Manufacturer recommendations"/>
+      <property name="LCSC" value="C5173290"/>
+      <property name="LCSC brand/model" value="WingTAT ED12BGFBK"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1ad5a47c-1c36-438f-b853-c82117670c5e</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>802-S-12-S-R</value>
+      <footprint>tinker:CONN-TH_12P-P2.54_WINGTAT_ED12BGFBK</footprint>
+      <datasheet>https://www.toby.co.uk/uploads/publications/248.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C5173290</field>
+        <field name="LCSC brand/model">WingTAT ED12BGFBK</field>
+        <field name="MANUFACTURER">Valcon</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">15.5mm</field>
+        <field name="PARTREV">April 28, 2021</field>
+        <field name="STANDARD">Manufacturer recommendations</field>
+      </fields>
+      <libsource lib="802-S-12-S-R" part="802-S-12-S-R" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="15.5mm"/>
+      <property name="PARTREV" value="April 28, 2021"/>
+      <property name="MANUFACTURER" value="Valcon"/>
+      <property name="STANDARD" value="Manufacturer recommendations"/>
+      <property name="LCSC" value="C5173290"/>
+      <property name="LCSC brand/model" value="WingTAT ED12BGFBK"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9cb209b2-d0b3-4c7c-b901-9080b9920358</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>802-S-12-S-R</value>
+      <footprint>tinker:CONN-TH_12P-P2.54_WINGTAT_ED12BGFBK</footprint>
+      <datasheet>https://www.toby.co.uk/uploads/publications/248.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C5173290</field>
+        <field name="LCSC brand/model">WingTAT ED12BGFBK</field>
+        <field name="MANUFACTURER">Valcon</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">15.5mm</field>
+        <field name="PARTREV">April 28, 2021</field>
+        <field name="STANDARD">Manufacturer recommendations</field>
+      </fields>
+      <libsource lib="802-S-12-S-R" part="802-S-12-S-R" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="15.5mm"/>
+      <property name="PARTREV" value="April 28, 2021"/>
+      <property name="MANUFACTURER" value="Valcon"/>
+      <property name="STANDARD" value="Manufacturer recommendations"/>
+      <property name="LCSC" value="C5173290"/>
+      <property name="LCSC brand/model" value="WingTAT ED12BGFBK"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc0cf909-664d-4952-99c9-aee50b3265df</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>802-S-12-S-R</value>
+      <footprint>tinker:CONN-TH_12P-P2.54_WINGTAT_ED12BGFBK</footprint>
+      <datasheet>https://www.toby.co.uk/uploads/publications/248.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C5173290</field>
+        <field name="LCSC brand/model">WingTAT ED12BGFBK</field>
+        <field name="MANUFACTURER">Valcon</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">15.5mm</field>
+        <field name="PARTREV">April 28, 2021</field>
+        <field name="STANDARD">Manufacturer recommendations</field>
+      </fields>
+      <libsource lib="802-S-12-S-R" part="802-S-12-S-R" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="15.5mm"/>
+      <property name="PARTREV" value="April 28, 2021"/>
+      <property name="MANUFACTURER" value="Valcon"/>
+      <property name="STANDARD" value="Manufacturer recommendations"/>
+      <property name="LCSC" value="C5173290"/>
+      <property name="LCSC brand/model" value="WingTAT ED12BGFBK"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7f3e4730-7784-4c4c-9951-b0a1ede75e51</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>802-S-12-S-R</value>
+      <footprint>tinker:CONN-TH_12P-P2.54_WINGTAT_ED12BGFBK</footprint>
+      <datasheet>https://www.toby.co.uk/uploads/publications/248.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C5173290</field>
+        <field name="LCSC brand/model">WingTAT ED12BGFBK</field>
+        <field name="MANUFACTURER">Valcon</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">15.5mm</field>
+        <field name="PARTREV">April 28, 2021</field>
+        <field name="STANDARD">Manufacturer recommendations</field>
+      </fields>
+      <libsource lib="802-S-12-S-R" part="802-S-12-S-R" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="15.5mm"/>
+      <property name="PARTREV" value="April 28, 2021"/>
+      <property name="MANUFACTURER" value="Valcon"/>
+      <property name="STANDARD" value="Manufacturer recommendations"/>
+      <property name="LCSC" value="C5173290"/>
+      <property name="LCSC brand/model" value="WingTAT ED12BGFBK"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061f95208</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x02</value>
+      <footprint>tinker:CONN-TH_KF58RM-10.0-2P</footprint>
+      <fields>
+        <field name="LCSC">C707718</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C707718"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1df338a-c6b2-489a-8567-bcc4b0dbcc8d</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_01x02</value>
+      <footprint>tinker:CONN-TH_KF58RM-10.0-2P</footprint>
+      <fields>
+        <field name="LCSC">C707718</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value="C707718"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2289752-a0b0-4177-94c8-155120db1f10</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>JST_SH_BM048</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C145961</field>
+      </fields>
+      <libsource lib="Connector_QWIIC_Stackable" part="QWIIC_Stackable" description="A stackable version of the horizontal QWIIC connector"/>
+      <property name="LCSC" value="C145961"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8ae00abc-7aea-499d-acda-9555bd2eec10</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>JST_SH_BM048</value>
+      <footprint>Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC">C145961</field>
+      </fields>
+      <libsource lib="Connector_QWIIC_Stackable" part="QWIIC_Stackable" description="A stackable version of the horizontal QWIIC connector"/>
+      <property name="LCSC" value="C145961"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c0ae6a3-7c5a-40cc-a564-4b8fd8f47490</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper Wire</value>
+      <footprint>tinker:Jumper-Wire_25mm_Blue</footprint>
+      <libsource lib="Jumper" part="Jumper_2_Bridged" description="Jumper, 2-pole, closed/bridged"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2cba2de9-63e7-4ebe-97a6-bdca33223ed4</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>L_Ferrite</value>
+      <footprint>tinker:IND-SMD_L7.1-W6.6</footprint>
+      <fields>
+        <field name="LCSC">C2983095</field>
+      </fields>
+      <libsource lib="Device" part="L_Ferrite" description="Inductor with ferrite core"/>
+      <property name="LCSC" value="C2983095"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e914311d-a545-4993-9451-6fdb51d30965</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b776f862-994c-47b6-b0ca-cc1f309c66b6</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0cff2ffb-d493-4b82-bece-afcdda8fffca</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b567bec1-420e-44ef-b16f-4af6ceb36e75</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b3a764d-80ec-48aa-b973-3be5d1ed0db5</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7eac13fa-aa89-4da8-96eb-a6bd33afc03f</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6236a777-523f-4682-a453-3d994c90a9d6</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad0686b5-1677-4ad0-b87f-989325d02336</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb9da3a7-83de-45d6-a3eb-88c94f12a471</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25803</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C25803"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>649508ca-743b-4468-9e3b-b04f74e097dc</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>47K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25819</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C25819"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>054a8d2a-7951-4086-914d-cee3d0c3517c</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LTC4311CSC6-TRPBF</value>
+      <footprint>SOT-6_SC_LIT</footprint>
+      <datasheet>LTC4311CSC6-TRPBF</datasheet>
+      <fields>
+        <field name="LCSC">C580856</field>
+      </fields>
+      <libsource lib="tinker" part="LTC4311CSC6-TRPBF" description=""/>
+      <property name="LCSC" value="C580856"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b83cf630-b919-4629-952d-3a085a1bed91</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TCA4307DGKR</value>
+      <footprint>SOIC8_DGK_TEX</footprint>
+      <datasheet>TCA4307DGKR</datasheet>
+      <fields>
+        <field name="LCSC">C880333</field>
+      </fields>
+      <libsource lib="tinker" part="TCA4307DGKR" description=""/>
+      <property name="LCSC" value="C880333"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff1017dd-3220-43fd-8f6b-c6f2ca5ce149</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TPS5403</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps5403.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C962080</field>
+      </fields>
+      <libsource lib="Regulator_Switching" part="TPS5403" description="4.5-28V In, 3.3V Out, 1.7A, SOIC-8"/>
+      <property name="LCSC" value="C962080"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Backplane.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e31aafe2-2b5e-4ed9-a9ba-0fecc59c38f8</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="802-S-12-S-R" part="802-S-12-S-R">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">802-S-12-S-R_802-S-12-S-R</field>
+        <field name="Footprint">VALCON_802-S-12-S-R</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">15.5mm</field>
+        <field name="PARTREV">April 28, 2021</field>
+        <field name="MANUFACTURER">Valcon</field>
+        <field name="STANDARD">Manufacturer recommendations</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_QWIIC_Stackable" part="QWIIC_Stackable">
+      <description>A stackable version of the horizontal QWIIC connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??-1MP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">QWIIC_Stackable</field>
+        <field name="Footprint">Tinker:QWIIC_Stackable</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="MP" name="MountPin" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Ferrite">
+      <description>Inductor with ferrite core</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Ferrite</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_2_Bridged">
+      <description>Jumper, 2-pole, closed/bridged</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*2Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_2_Bridged</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="SolderJumper_2_Open">
+      <description>Solder Jumper, 2-pole, open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SolderJumper*Open*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">SolderJumper_2_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="TPS5403">
+      <description>4.5-28V In, 3.3V Out, 1.7A, SOIC-8</description>
+      <docs>https://www.ti.com/lit/ds/symlink/tps5403.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS5403</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps5403.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BOOT" type="passive"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="ROSC" type="passive"/>
+        <pin num="4" name="SS" type="passive"/>
+        <pin num="5" name="VSENSE" type="input"/>
+        <pin num="6" name="COMP" type="passive"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="LX" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="tinker" part="LTC4311CSC6-TRPBF">
+      <docs>LTC4311CSC6-TRPBF</docs>
+      <footprints>
+        <fp>SOT-6_SC_LIT</fp>
+        <fp>SOT-6_SC_LIT-M</fp>
+        <fp>SOT-6_SC_LIT-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LTC4311CSC6-TRPBF</field>
+        <field name="Footprint">SOT-6_SC_LIT</field>
+        <field name="Datasheet">LTC4311CSC6-TRPBF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="ENABLE" type="input"/>
+        <pin num="4" name="BUS2" type="unspecified"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="BUS1" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="tinker" part="TCA4307DGKR">
+      <docs>TCA4307DGKR</docs>
+      <footprints>
+        <fp>SOIC8_DGK_TEX</fp>
+        <fp>SOIC8_DGK_TEX-M</fp>
+        <fp>SOIC8_DGK_TEX-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TCA4307DGKR</field>
+        <field name="Footprint">SOIC8_DGK_TEX</field>
+        <field name="Datasheet">TCA4307DGKR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="SCLOUT" type="output"/>
+        <pin num="3" name="SCLIN" type="input"/>
+        <pin num="4" name="GND" type="power_out"/>
+        <pin num="5" name="READY" type="output"/>
+        <pin num="6" name="SDAIN" type="input"/>
+        <pin num="7" name="SDAOUT" type="output"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>/usr/share/kicad/symbols//Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>/usr/share/kicad/symbols//Regulator_Switching.kicad_sym</uri>
+    </library>
+    <library logical="tinker">
+      <uri>/home/tinker/Documents/GIT/USB-Power-Strip/Hardware/KiCAD Customs/symbols/tinker.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/BOOT">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="BOOT" pintype="passive"/>
+    </net>
+    <net code="2" name="/COMP">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="COMP" pintype="passive"/>
+    </net>
+    <net code="3" name="/LX">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="LX" pintype="output"/>
+    </net>
+    <net code="4" name="/ROSC">
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="ROSC" pintype="passive"/>
+    </net>
+    <net code="5" name="/SS">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="SS" pintype="passive"/>
+    </net>
+    <net code="6" name="D0">
+      <node ref="J1" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J2" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J3" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J4" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J5" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J6" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J7" pin="7" pinfunction="7" pintype="passive"/>
+      <node ref="J8" pin="7" pinfunction="7" pintype="passive"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="J1" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="J1" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="J1" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J12" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J12" pin="MP" pinfunction="MountPin" pintype="passive"/>
+      <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J13" pin="MP" pinfunction="MountPin" pintype="passive"/>
+      <node ref="J2" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="J2" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="J2" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="J2" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="J3" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="J3" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="J3" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="J3" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="J4" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="J4" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="J4" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="J4" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="J5" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="J5" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="J5" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="J5" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="J6" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="J6" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="J6" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="J6" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="J7" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="J7" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="J7" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="J7" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="J8" pin="10" pinfunction="10" pintype="passive"/>
+      <node ref="J8" pin="11" pinfunction="11" pintype="passive"/>
+      <node ref="J8" pin="12" pinfunction="12" pintype="passive"/>
+      <node ref="J8" pin="9" pinfunction="9" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="GND" pintype="power_out"/>
+    </net>
+    <net code="8" name="GND1">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="9" name="I2C-Vcc">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J5" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J6" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J7" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J8" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="VSENSE" pintype="input"/>
+    </net>
+    <net code="10" name="I2C-Vcc_">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J12" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J13" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U1" pin="3" pinfunction="ENABLE" pintype="input"/>
+      <node ref="U2" pin="8" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="11" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="13" name="Net-(R8-Pad2)">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="READY" pintype="output"/>
+    </net>
+    <net code="14" name="SCL">
+      <node ref="J1" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="J2" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="J3" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="J4" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="J5" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="J6" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="J7" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="J8" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="SCLOUT" pintype="output"/>
+    </net>
+    <net code="15" name="SCL_">
+      <node ref="J12" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J13" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="BUS1" pintype="unspecified"/>
+      <node ref="U2" pin="3" pinfunction="SCLIN" pintype="input"/>
+    </net>
+    <net code="16" name="SDA">
+      <node ref="J1" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J4" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J5" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J6" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J7" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="J8" pin="6" pinfunction="6" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="SDAOUT" pintype="output"/>
+    </net>
+    <net code="17" name="SDA_">
+      <node ref="J12" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J13" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="BUS2" pintype="unspecified"/>
+      <node ref="U2" pin="6" pinfunction="SDAIN" pintype="input"/>
+    </net>
+    <net code="18" name="Vin">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="VIN" pintype="power_in"/>
+    </net>
+  </nets>
+</export>
