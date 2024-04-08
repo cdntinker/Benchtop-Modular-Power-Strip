@@ -27,7 +27,7 @@
   (fp_circle (center 5 0) (end 5.47 0) (layer "F.Fab") (width 0.95) (fill none) (tstamp a9781386-481e-4598-b1fd-7bdc6cae0588))
   (pad "1" thru_hole roundrect (at -5 0) (size 3.5 3.5) (drill 2.100021) (layers *.Cu *.Mask) (roundrect_rratio 0.25) (tstamp 0ee036f5-5cd0-4f10-aff3-cc55b7d0d4b1))
   (pad "2" thru_hole circle (at 5 0) (size 3.5 3.5) (drill 2.100021) (layers *.Cu *.Mask) (tstamp fdcab2eb-6347-40ae-ab03-c11e109249f7))
-  (model "/home/tinker/Documents/GIT/USB-Power-Strip/Hardware/KiCAD Customs/3D/CONN-TH_KF58RM-10.0-2P.step"
+  (model "/home/tinker/Documents/GIT/Benchtop-Modular-Power-Strip/Hardware/KiCAD Customs/3D/CONN-TH_KF58RM-10.0-2P.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

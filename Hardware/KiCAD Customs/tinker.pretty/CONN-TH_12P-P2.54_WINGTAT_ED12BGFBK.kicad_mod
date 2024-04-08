@@ -47,7 +47,7 @@
   (pad "10" thru_hole circle (at -3.81 2.54) (size 1.5 1.5) (drill 0.999998) (layers *.Cu *.Mask) (tstamp dd8b4495-f03b-4e49-83fb-9ef535db3602))
   (pad "11" thru_hole circle (at -6.35 -2.54) (size 1.5 1.5) (drill 0.999998) (layers *.Cu *.Mask) (tstamp 653eea11-e800-488b-a114-ec28d6816c6d))
   (pad "12" thru_hole circle (at -6.35 2.54) (size 1.5 1.5) (drill 0.999998) (layers *.Cu *.Mask) (tstamp 4c329aad-b26a-4cc3-9474-a41fe22d0819))
-  (model "/home/tinker/Documents/GIT/USB-Power-Strip/Hardware/KiCAD Customs/3D/CONN-TH_12P-P2.54_WINGTAT_ED12BGFBK.step"
+  (model "/home/tinker/Documents/GIT/Benchtop-Modular-Power-Strip/Hardware/KiCAD Customs/3D/CONN-TH_12P-P2.54_WINGTAT_ED12BGFBK.step"
     (offset (xyz 0 -0 10.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

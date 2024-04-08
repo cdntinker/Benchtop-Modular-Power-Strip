@@ -165,7 +165,7 @@
   (pad "19" smd rect (at -0.499999 -1.8923) (size 0.254 0.9144) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp e2c63ef8-ee60-48d4-9833-4138570147a3))
   (pad "20" smd rect (at -1.000001 -1.8923) (size 0.254 0.9144) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 8dd178e5-c844-430f-b39c-307b52de850c))
   (pad "21" smd rect (at 0 0) (size 2.1 2.1) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 2c9581ba-37aa-4da4-9a20-abc34d392484))
-  (model "/home/tinker/Documents/GIT/USB-Power-Strip/Hardware/KiCAD Customs/3D/QFN-20_MP5031_MNP.step"
+  (model "/home/tinker/Documents/GIT/Benchtop-Modular-Power-Strip/Hardware/KiCAD Customs/3D/QFN-20_MP5031_MNP.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

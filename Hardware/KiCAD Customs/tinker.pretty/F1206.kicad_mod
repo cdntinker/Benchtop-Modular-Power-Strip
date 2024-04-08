@@ -25,7 +25,7 @@
   (fp_circle (center -1.6 0.8) (end -1.57 0.8) (layer "F.Fab") (width 0.06) (fill none) (tstamp 8dcfc263-8f6f-47f8-8c10-1269399ac8cb))
   (pad "1" smd rect (at -1.45 0) (size 1.19 1.73) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 45f35500-67a3-4cc4-8f34-ffc93da4c1ee))
   (pad "2" smd rect (at 1.45 0) (size 1.19 1.73) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d20579d9-5c21-46a2-b3ba-f34869958350))
-  (model "/home/tinker/Documents/GIT/USB-Power-Strip/Hardware/KiCAD Customs/3D/F1206_L3.2-W1.7-H0.6.step"
+  (model "/home/tinker/Documents/GIT/Benchtop-Modular-Power-Strip/Hardware/KiCAD Customs/3D/F1206_L3.2-W1.7-H0.6.step"
     (offset (xyz 0 -0 -0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -75,7 +75,7 @@
   (pad "11" smd rect (at 0.250063 -1.45 90) (size 0.7112 0.3048) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 3810a36f-50bc-4700-bcb9-b63b2ddc138c))
   (pad "12" smd rect (at -0.250063 -1.45 90) (size 0.7112 0.3048) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp df777576-9298-4cb6-b6f6-119100719b3c))
   (pad "13" smd rect (at -0.750189 -1.45 90) (size 0.7112 0.3048) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 54f39f45-8f3e-4b4f-9e90-13ba761e592b))
-  (model "/home/tinker/Documents/GIT/USB-Power-Strip/Hardware/KiCAD Customs/3D/MP2491C.step"
+  (model "/home/tinker/Documents/GIT/Benchtop-Modular-Power-Strip/Hardware/KiCAD Customs/3D/MP2491C.step"
     (offset (xyz -20.36 -13.68 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

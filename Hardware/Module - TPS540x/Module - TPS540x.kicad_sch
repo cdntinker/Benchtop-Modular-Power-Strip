@@ -130,6 +130,9 @@
     (path "/a3d9c512-b205-4067-a593-de0d25cc14d2/18224d7e-58b1-47ac-b0f0-11f6a30bbcb8"
       (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
     )
+    (path "/d7d6a132-327c-4ed4-bf18-6982014b90d0/14d95d82-f433-4bc8-87c1-d9949bd91a87"
+      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
+    )
     (path "/a3d9c512-b205-4067-a593-de0d25cc14d2/11043b9a-c409-43f5-ae73-8f187c82fb29"
       (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
     )
@@ -333,6 +336,9 @@
     )
     (path "/d7d6a132-327c-4ed4-bf18-6982014b90d0/202cbddb-1a2e-44f4-92dd-5ab76fc58739"
       (reference "J706") (unit 1) (value "XT30+Barrel") (footprint "tinker:CONN-TH_XT30PW-F-1+Barrel")
+    )
+    (path "/d7d6a132-327c-4ed4-bf18-6982014b90d0/df7d2a1a-61a3-4557-a267-14c02750449a"
+      (reference "J707") (unit 1) (value "USB-C_XT30") (footprint "tinker:USB-C_XT30")
     )
     (path "/10b10896-5180-4e53-a638-f5b731e575e1/c975626a-2b0c-4eb1-b5dd-f4179c92ae93"
       (reference "JP401") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
