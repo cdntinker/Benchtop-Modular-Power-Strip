@@ -159,7 +159,7 @@
       (reference "J102") (unit 1) (value "USB_C_Receptacle") (footprint "tinker:USB_C_Receptacle_HRO_TYPE-C-31-M-12")
     )
     (path "/c2eb2f4e-77e8-4a78-8403-3e7cb619a40a/09a2f38b-f9ec-4e6d-a6c3-c9839fe536a7"
-      (reference "J902") (unit 1) (value "Conn_01x03") (footprint "tinker:PinHeader_1x03_P2.54mm_Horizontal")
+      (reference "J902") (unit 1) (value "Conn_01x03") (footprint "tinker:UPDI-Pogo")
     )
     (path "/4f477cc9-5998-49df-a892-cf859c513a7a/04bdf3de-3145-4204-8c3c-b458127d81bb"
       (reference "R102") (unit 1) (value "5k1") (footprint "Resistor_SMD:R_0603_1608Metric")

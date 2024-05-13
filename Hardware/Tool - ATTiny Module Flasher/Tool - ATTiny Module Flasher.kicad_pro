@@ -55,13 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "via_dangling|58500000|100760000|efb41c93-ec80-4d9e-a63b-e6386b344f8e|00000000-0000-0000-0000-000000000000",
-        "via_dangling|58500000|101760000|44c15b3e-3a5d-4cb5-9d5a-10b4966d32d6|00000000-0000-0000-0000-000000000000",
-        "via_dangling|58500000|98240000|6984380e-6833-4c43-9a95-b82162d87df6|00000000-0000-0000-0000-000000000000",
-        "via_dangling|58500000|99240000|50754fa8-c6b8-43e0-9dbd-791d2a364a59|00000000-0000-0000-0000-000000000000",
-        "via_dangling|93218000|98298000|d5b8117b-5003-4664-aba0-e7d3b75be865|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -353,7 +347,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Tool - ESP Module Flasher.kicad_pro",
+    "filename": "Tool - ATTiny Module Flasher.kicad_pro",
     "version": 1
   },
   "net_settings": {
