@@ -7,7 +7,7 @@
   (title_block
     (title "BMPS Tools")
     (date "2024-03-19")
-    (rev "1.0.0")
+    (rev "1.2.0")
     (company "S. A. Miller")
     (comment 1 "Module Flasher")
     (comment 2 "ATTiny Edition")
