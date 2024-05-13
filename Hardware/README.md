@@ -11,15 +11,19 @@ This is the "daisy-chainable" backplane for the modules to plug into.
 To create a new module... Just copy one of the **WIP - Prototyping Module** folders, do some renaming & go from there.
 * Module - TPS540x
   - a fixed voltage output module based on the TPS540x family of chips.
+  - Can be populated with either the 3v3 or 5v0 version (possibly others if they exist)
   - Basic design has dual circuits
-  - Options for USB-A/C combo footprint or Barrel/XT30 combo footprint
+  - Options for USB-A/C or XT30 combo footprint
+* Module - LM2596S
+  - a fixed voltage output module based on the LM2596S
+  - Output voltage(s) set via resistors R502/R503 & R602/603
+  - Basic design has dual circuits
+  - Options for USB-A/C or XT30 combo footprint
 * Module - USB QC
   - A QC 2.0 output module
 * Module - USB PD Source
   - Take a guess...
   - (I _think_ I've got this one worked out...)
-* Module - Adjustable single rail PSU
-  - a fixed voltage output module based on the LM2596S
 
 ## Master Control Modules
 * Controller - ATTiny

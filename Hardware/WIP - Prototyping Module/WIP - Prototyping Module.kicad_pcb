@@ -431,7 +431,7 @@
       (net 23 "Vsrc") (pintype "passive") (tstamp 19c10380-489b-49e1-8b88-0c004f7d9446))
     (pad "2" smd rect (at 1.45 0 90) (size 1.19 1.73) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 25 "/Source Power Rail/Vprot") (pintype "passive") (tstamp 5154b239-9ab8-40f8-a02b-b55a70c57255))
-    (model "/home/tinker/Documents/GIT/USB-Power-Strip/Hardware/KiCAD Customs/3D/F1206_L3.2-W1.7-H0.6.step"
+    (model "/home/tinker/Documents/GIT/Benchtop-Modular-Power-Strip/Hardware/KiCAD Customs/3D/F1206_L3.2-W1.7-H0.6.step"
       (offset (xyz 0 -0 -0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/tinker/Documents/GIT/USB-Power-Strip/Hardware/WIP - Prototyping Module/WIP - Prototyping Module.kicad_sch</source>
+    <date>Mon 25 Mar 2024 07:05:10 PM</date>
+    <tool>Eeschema 6.0.11+dfsg-1~bpo11+1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Benchtop Modular Power Strip</title>
+        <company>S. A. Miller</company>
+        <rev>0.0.0</rev>
+        <date>2024-03-25</date>
+        <source>WIP - Prototyping Module.kicad_sch</source>
+        <comment number="1" value="Prototype Module"/>
+        <comment number="2" value="Blank"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/ATTinyXX17/" tstamps="/3f597fe2-e90f-4e96-8272-fe65887870e9/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>ATTinyXX17.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Source Power Rail/" tstamps="/ecbb230b-827b-43ac-9926-924482911738/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Power.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C14663"/>
+      <property name="Sheetname" value="ATTinyXX17"/>
+      <property name="Sheetfile" value="ATTinyXX17.kicad_sch"/>
+      <sheetpath names="/ATTinyXX17/" tstamps="/3f597fe2-e90f-4e96-8272-fe65887870e9/"/>
+      <tstamps>c3c929d0-bd77-497e-880e-9123cf1393d3</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="LCSC">C107153</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C107153"/>
+      <property name="Sheetname" value="ATTinyXX17"/>
+      <property name="Sheetfile" value="ATTinyXX17.kicad_sch"/>
+      <sheetpath names="/ATTinyXX17/" tstamps="/3f597fe2-e90f-4e96-8272-fe65887870e9/"/>
+      <tstamps>afb78366-6f57-4b12-a6d7-7841fe1c3df0</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value="ATTinyXX17"/>
+      <property name="Sheetfile" value="ATTinyXX17.kicad_sch"/>
+      <sheetpath names="/ATTinyXX17/" tstamps="/3f597fe2-e90f-4e96-8272-fe65887870e9/"/>
+      <tstamps>fd85a6fa-5155-4114-92c7-ea395279fa5d</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value="ATTinyXX17"/>
+      <property name="Sheetfile" value="ATTinyXX17.kicad_sch"/>
+      <sheetpath names="/ATTinyXX17/" tstamps="/3f597fe2-e90f-4e96-8272-fe65887870e9/"/>
+      <tstamps>b4e7d22b-3626-46e9-9c63-164f853df6b2</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C25804"/>
+      <property name="Sheetname" value="ATTinyXX17"/>
+      <property name="Sheetfile" value="ATTinyXX17.kicad_sch"/>
+      <sheetpath names="/ATTinyXX17/" tstamps="/3f597fe2-e90f-4e96-8272-fe65887870e9/"/>
+      <tstamps>328bd641-af30-4f51-9a2d-1e67837d2a9d</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>330R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C23138</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C23138"/>
+      <property name="Sheetname" value="ATTinyXX17"/>
+      <property name="Sheetfile" value="ATTinyXX17.kicad_sch"/>
+      <sheetpath names="/ATTinyXX17/" tstamps="/3f597fe2-e90f-4e96-8272-fe65887870e9/"/>
+      <tstamps>ebee027f-ac81-44cb-a1d3-27170ab12d63</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ATtiny1617</value>
+      <footprint>Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/40001901B.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C1340514</field>
+      </fields>
+      <libsource lib="MCU_Microchip_ATtiny" part="ATtiny817-M" description="20MHz, 8kB Flash, 512B SRAM, 128B EEPROM, VQFN-24"/>
+      <property name="LCSC" value="C1340514"/>
+      <property name="Sheetname" value="ATTinyXX17"/>
+      <property name="Sheetfile" value="ATTinyXX17.kicad_sch"/>
+      <sheetpath names="/ATTinyXX17/" tstamps="/3f597fe2-e90f-4e96-8272-fe65887870e9/"/>
+      <tstamps>90675046-f16f-4141-a007-5433547cce01</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <fields>
+        <field name="LCSC">C3040450</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="LCSC" value="C3040450"/>
+      <property name="Sheetname" value="Source Power Rail"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Source Power Rail/" tstamps="/ecbb230b-827b-43ac-9926-924482911738/"/>
+      <tstamps>a91d92bd-d54f-4e56-aaf0-01ab6434b9ac</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>Polyfuse</value>
+      <footprint>tinker:F1206</footprint>
+      <datasheet>https://www.lcsc.com/datasheet/lcsc_datasheet_2305121424_BHFUSE-BSMD1206L-260_C960020.pdf</datasheet>
+      <fields>
+        <field name="Field5">BHFuse BSMD1206 family</field>
+        <field name="Field6">https://www.lcsc.com/products/Resettable-Fuses_11042.html?keyword=BSMD1206</field>
+        <field name="LCSC">C2977524 (random choice)</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="LCSC" value="C2977524 (random choice)"/>
+      <property name="Field5" value="BHFuse BSMD1206 family"/>
+      <property name="Field6" value="https://www.lcsc.com/products/Resettable-Fuses_11042.html?keyword=BSMD1206"/>
+      <property name="Sheetname" value="Source Power Rail"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Source Power Rail/" tstamps="/ecbb230b-827b-43ac-9926-924482911738/"/>
+      <tstamps>ae5a3562-69d7-4f39-848b-de24019026d4</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse">
+      <description>Resettable fuse, polymeric positive temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATtiny" part="ATtiny817-M">
+      <description>20MHz, 8kB Flash, 512B SRAM, 128B EEPROM, VQFN-24</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/40001901B.pdf</docs>
+      <footprints>
+        <fp>QFN*1EP*4x4mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATtiny817-M</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/40001901B.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PA2" type="bidirectional"/>
+        <pin num="2" name="PA3" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="PA4" type="bidirectional"/>
+        <pin num="6" name="PA5" type="bidirectional"/>
+        <pin num="7" name="PA6" type="bidirectional"/>
+        <pin num="8" name="PA7" type="bidirectional"/>
+        <pin num="9" name="PB7" type="bidirectional"/>
+        <pin num="10" name="PB6" type="bidirectional"/>
+        <pin num="11" name="PB5" type="bidirectional"/>
+        <pin num="12" name="PB4" type="bidirectional"/>
+        <pin num="13" name="PB3" type="bidirectional"/>
+        <pin num="14" name="PB2" type="bidirectional"/>
+        <pin num="15" name="PB1" type="bidirectional"/>
+        <pin num="16" name="PB0" type="bidirectional"/>
+        <pin num="17" name="PC0" type="bidirectional"/>
+        <pin num="18" name="PC1" type="bidirectional"/>
+        <pin num="19" name="PC2" type="bidirectional"/>
+        <pin num="20" name="PC3" type="bidirectional"/>
+        <pin num="21" name="PC4" type="bidirectional"/>
+        <pin num="22" name="PC5" type="bidirectional"/>
+        <pin num="23" name="~{RESET}/PA0" type="bidirectional"/>
+        <pin num="24" name="PA1" type="bidirectional"/>
+        <pin num="25" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Microchip_ATtiny">
+      <uri>/usr/share/kicad/symbols//MCU_Microchip_ATtiny.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/ATTinyXX17/PA0">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="~{RESET}/PA0" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="/Source Power Rail/Vprot">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="5" name="I2C-Vcc">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="6" name="PA1">
+      <node ref="U1" pin="24" pinfunction="PA1" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="PA2">
+      <node ref="U1" pin="1" pinfunction="PA2" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="PA3">
+      <node ref="U1" pin="2" pinfunction="PA3" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="PA4">
+      <node ref="U1" pin="5" pinfunction="PA4" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="PA5">
+      <node ref="U1" pin="6" pinfunction="PA5" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="PA6">
+      <node ref="U1" pin="7" pinfunction="PA6" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="PA7">
+      <node ref="U1" pin="8" pinfunction="PA7" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="PB0">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="PB0" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="PB1">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="PB1" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="PB2">
+      <node ref="U1" pin="14" pinfunction="PB2" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="PB3">
+      <node ref="U1" pin="13" pinfunction="PB3" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="PB4">
+      <node ref="U1" pin="12" pinfunction="PB4" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="PB5">
+      <node ref="U1" pin="11" pinfunction="PB5" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="PB6">
+      <node ref="U1" pin="10" pinfunction="PB6" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="PB7">
+      <node ref="U1" pin="9" pinfunction="PB7" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="PC0">
+      <node ref="U1" pin="17" pinfunction="PC0" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="PC1">
+      <node ref="U1" pin="18" pinfunction="PC1" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="PC2">
+      <node ref="U1" pin="19" pinfunction="PC2" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="PC3">
+      <node ref="U1" pin="20" pinfunction="PC3" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="PC4">
+      <node ref="U1" pin="21" pinfunction="PC4" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="PC5">
+      <node ref="U1" pin="22" pinfunction="PC5" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="Vin">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+    </net>
+    <net code="31" name="Vsrc">
+      <node ref="F1" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="~{RESET}">
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+  </nets>
+</export>

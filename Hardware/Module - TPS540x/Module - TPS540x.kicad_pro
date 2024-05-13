@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.999998,
-          "height": 1.8,
-          "width": 1.8
+          "drill": 0.0,
+          "height": 2.5,
+          "width": 3.5
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -57,10 +57,8 @@
       ],
       "drc_exclusions": [
         "via_dangling|58500000|100760000|efb41c93-ec80-4d9e-a63b-e6386b344f8e|00000000-0000-0000-0000-000000000000",
-        "via_dangling|58500000|101760000|44c15b3e-3a5d-4cb5-9d5a-10b4966d32d6|00000000-0000-0000-0000-000000000000",
         "via_dangling|58500000|98240000|6984380e-6833-4c43-9a95-b82162d87df6|00000000-0000-0000-0000-000000000000",
-        "via_dangling|58500000|99240000|50754fa8-c6b8-43e0-9dbd-791d2a364a59|00000000-0000-0000-0000-000000000000",
-        "via_dangling|93218000|98298000|d5b8117b-5003-4664-aba0-e7d3b75be865|00000000-0000-0000-0000-000000000000"
+        "via_dangling|58500000|99240000|50754fa8-c6b8-43e0-9dbd-791d2a364a59|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
         "filename": "board_design_settings.json",
@@ -349,7 +347,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "tinker"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -433,7 +433,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 500,
+    "annotate_start_num": 600,
     "drawing": {
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
@@ -476,28 +476,28 @@
       ""
     ],
     [
-      "3f597fe2-e90f-4e96-8272-fe65887870e9",
-      "ATTinyXX17"
-    ],
-    [
       "ecbb230b-827b-43ac-9926-924482911738",
       "Source Power Rail"
     ],
     [
-      "10b10896-5180-4e53-a638-f5b731e575e1",
+      "3f597fe2-e90f-4e96-8272-fe65887870e9",
+      "ATTinyXX17"
+    ],
+    [
+      "0961f75d-f6aa-407d-80f4-2b9b25bf09bd",
       "Control A"
     ],
     [
-      "a3d9c512-b205-4067-a593-de0d25cc14d2",
-      "TPS540x 1"
-    ],
-    [
-      "76680d8a-9542-4fb8-bd22-f02d3e56b0f4",
+      "094302b1-c12d-4337-b932-88232fa8ea2e",
       "Control B"
     ],
     [
-      "d7d6a132-327c-4ed4-bf18-6982014b90d0",
-      "TPS540x 2"
+      "03cc4af1-f3c2-4761-aa65-f82c095d5b1a",
+      "TPS540x-A"
+    ],
+    [
+      "7490b712-11a4-4285-ae42-742a23599e06",
+      "TPS540x-B"
     ]
   ],
   "text_variables": {}
