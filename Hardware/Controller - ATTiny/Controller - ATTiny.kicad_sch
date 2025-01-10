@@ -125,6 +125,9 @@
     (path "/8ec968ed-e8aa-49f4-a299-12e0ea4e2fb8/10df842f-737f-45a8-a75c-2a401fdfb059"
       (reference "#PWR0112") (unit 1) (value "GND") (footprint "")
     )
+    (path "/3f597fe2-e90f-4e96-8272-fe65887870e9/21edc810-ff73-41a6-88a7-6eb868982ddc"
+      (reference "#PWR0113") (unit 1) (value "GND") (footprint "")
+    )
     (path "/3f597fe2-e90f-4e96-8272-fe65887870e9/c3c929d0-bd77-497e-880e-9123cf1393d3"
       (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -190,6 +193,9 @@
     )
     (path "/8ec968ed-e8aa-49f4-a299-12e0ea4e2fb8/f5afc7a5-d343-4470-bfb1-60b1405b964c"
       (reference "R501") (unit 1) (value "2k2") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/3f597fe2-e90f-4e96-8272-fe65887870e9/3746c6bc-6b4c-4867-9b05-cd7eb4c20ed9"
+      (reference "SW1") (unit 1) (value "SW_Push") (footprint "tinker:SW_Push_TS273014TP")
     )
     (path "/8ec968ed-e8aa-49f4-a299-12e0ea4e2fb8/bd2b1dee-2ead-4946-9a4e-ea9b801f2415"
       (reference "SW504") (unit 1) (value "SW_DIP_x01") (footprint "tinker:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W7.62mm_P2.54mm_LowProfile")
